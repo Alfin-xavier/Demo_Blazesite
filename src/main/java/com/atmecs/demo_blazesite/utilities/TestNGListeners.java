@@ -1,6 +1,5 @@
 package com.atmecs.demo_blazesite.utilities;
 
-import java.io.IOException;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
@@ -25,16 +24,9 @@ public class TestNGListeners implements ITestListener
 	@Override
 	public void onTestFailure(ITestResult result) 
 	{
-		System.out.println(result.getName()+"Failed!!");
+		System.out.println(result.getName()+" "+"Failed!!");
 
-		try 
-		{
-			TakeScreenshots.takeScreenshot(driver, "errorpage");
-		}
-		catch (IOException e) 
-		{
-			e.printStackTrace();
-		}
+		TakeScreenshots.takeScreenshot(driver, result.getName());
 	}
 
 	@Override
