@@ -7,9 +7,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-
 import com.atmecs.demo_blazesite.constants.Constants;
 import com.atmecs.demo_blazesite.utilities.PropertyReader;
+import com.atmecs.demo_blazesite.utilities.TestNGListeners;
 
 public class BaseTest 
 {
@@ -31,6 +31,8 @@ public class BaseTest
 		
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(150, TimeUnit.SECONDS);
+		
+		TestNGListeners.driver = driver;
 
 	}
 
