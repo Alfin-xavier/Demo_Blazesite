@@ -27,6 +27,7 @@ public class Login extends BaseTest
 	public void logIn(String username, String password) 
 	{
 		LogInTest login = new LogInTest(driver);
+		log.fatal("You need to cond\figure log4j");
 		log.error(password);
 		try 
 		{
