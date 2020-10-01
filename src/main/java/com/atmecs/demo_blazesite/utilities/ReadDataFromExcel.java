@@ -16,13 +16,13 @@ public class ReadDataFromExcel
 	public static XSSFCell cell;
 	public static Object[][] data;
 	
-	public static Object[][] readExcelData(String sheetname)
+	public static Object[][] readExcelData(String file_path, String sheetname)
 	{		
 		
 		FileInputStream finput = null;
 		try
 		{
-			finput = new FileInputStream(Constants.EXCEL_DATAS);
+			finput = new FileInputStream(file_path);
 		}
 		catch (FileNotFoundException e) 
 		{

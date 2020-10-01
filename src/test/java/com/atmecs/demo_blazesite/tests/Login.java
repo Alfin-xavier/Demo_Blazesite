@@ -6,6 +6,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.atmecs.demo_blazesite.basetest.BaseTest;
+import com.atmecs.demo_blazesite.constants.Constants;
 import com.atmecs.demo_blazesite.pagehelper.LogInTest;
 import com.atmecs.demo_blazesite.utilities.ReadDataFromExcel;
 
@@ -14,7 +15,7 @@ public class Login extends BaseTest
 	@DataProvider
 	public Object[][] readData()
 	{
-		Object[][] data = ReadDataFromExcel.readExcelData("Login_Credentials");
+		Object[][] data = ReadDataFromExcel.readExcelData(Constants.LOGIN_DATA,"Login");
 		
 		return data;
 	}
