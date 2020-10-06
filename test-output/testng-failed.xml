@@ -4,8 +4,15 @@
   <listeners>
     <listener class-name="com.atmecs.demo_blazesite.utilities.TestNGListeners"/>
   </listeners>
-  <test thread-count="5" parallel="instances" name="Test(failed)">
+  <test thread-count="5" name="test(failed)">
     <classes>
+      <class name="com.atmecs.demo_blazesite.tests.AddProduct">
+        <methods>
+          <include name="afterTest"/>
+          <include name="addProduct"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.atmecs.demo_blazesite.tests.AddProduct -->
       <class name="com.atmecs.demo_blazesite.tests.SignIn">
         <methods>
           <include name="signIn"/>
@@ -20,6 +27,13 @@
           <include name="beforeTest"/>
         </methods>
       </class> <!-- com.atmecs.demo_blazesite.tests.ContactUs -->
+      <class name="com.atmecs.demo_blazesite.tests.Login">
+        <methods>
+          <include name="afterTest"/>
+          <include name="logIn"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.atmecs.demo_blazesite.tests.Login -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
