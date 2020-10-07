@@ -7,7 +7,18 @@
 			class-name="com.atmecs.demo_blazesite.utilities.TestNGListeners"></listener>
 	</listeners>
 
-  <test thread-count="5" name="test">
+ <test thread-count="5" name="test1">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.atmecs.demo_blazesite.tests.AddProduct"/>
+      <class name="com.atmecs.demo_blazesite.tests.ContactUs"/>
+      <class name="com.atmecs.demo_blazesite.tests.SignIn"/>
+      <class name="com.atmecs.demo_blazesite.tests.Login"/>
+    </classes>
+  </test>
+  
+  <test thread-count="5" name="test2">
+  <parameter name="browser" value="firefox"/>
     <classes>
       <class name="com.atmecs.demo_blazesite.tests.AddProduct"/>
       <class name="com.atmecs.demo_blazesite.tests.ContactUs"/>

@@ -5,9 +5,12 @@ import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
+
 import com.atmecs.demo_blazesite.constants.Constants;
 import com.atmecs.demo_blazesite.utilities.PropertyReader;
 import com.atmecs.demo_blazesite.utilities.TestNGListeners;
@@ -18,17 +21,29 @@ public class BaseTest
 	Properties properties;
 	String baseUrl;
 	String browserUrl;
-	
 	@BeforeMethod
-	public void beforeTest() throws InterruptedException, IOException 
+	@Parameters("browser")
+	
+	public void beforeTest(String browser) throws InterruptedException, IOException 
 	{
 		properties = PropertyReader.readProperties(Constants.CONFIG);
 		baseUrl = properties.getProperty("url");
 		browserUrl = properties.getProperty("browser");
 		
-		System.setProperty(Constants.USER_DIR, Constants.CHROME_PATH);
-		driver = new ChromeDriver();
-		driver.get(baseUrl);
+		if (browser.equalsIgnoreCase("chrome")) 
+		{
+			System.setProperty(Constants.CHROME_DIR, Constants.CHROME_PATH);
+			driver = new ChromeDriver();
+			driver.get(baseUrl);
+		}
+		
+		else if(browser.equalsIgnoreCase("firefox")) 
+		{
+			System.setProperty(Constants.GECKO_DIR, Constants.GECKO_PATH);
+			driver = new FirefoxDriver();
+			driver.get(baseUrl);
+		}
+
 		
 		Assert.assertEquals(driver.getCurrentUrl(), baseUrl);
 		
