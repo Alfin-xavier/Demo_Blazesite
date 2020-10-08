@@ -14,4 +14,5 @@ public class Constants
 	public static final String LOGIN_DATA = "./src/main/resources/datas/Demo_Blazesite_Login.xlsx";
 	public static final String CONTACTUS_DATA = "./src/main/resources/datas/Demo_Blazesite_ContactUs.xlsx";
 	public static final String SCREEN_SHOTS ="./screenshots";
+	public static final String LOG4J_FILE = "./src/main/resources/log4j.properties";
 }

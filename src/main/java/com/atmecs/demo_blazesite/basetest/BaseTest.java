@@ -44,7 +44,6 @@ public class BaseTest
 			driver.get(baseUrl);
 		}
 
-		
 		Assert.assertEquals(driver.getCurrentUrl(), baseUrl);
 		
 		driver.manage().window().maximize();
