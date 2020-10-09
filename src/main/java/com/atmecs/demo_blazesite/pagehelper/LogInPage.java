@@ -9,7 +9,7 @@ import com.atmecs.demo_blazesite.helpers.Helpers;
 import com.atmecs.demo_blazesite.utilities.Logging;
 import com.atmecs.demo_blazesite.utilities.PropertyReader;
 
-public class LogInTest 
+public class LogInPage 
 {
 	public WebDriver driver;
 
@@ -17,11 +17,9 @@ public class LogInTest
 
 	Properties locatorsFile;
 	
-	Properties datas;
-	
 	Logging log;
 
-	public LogInTest(WebDriver driver) 
+	public LogInPage(WebDriver driver) 
 	{
 		this.driver = driver;
 	}

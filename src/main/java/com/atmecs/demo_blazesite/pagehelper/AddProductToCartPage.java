@@ -9,7 +9,7 @@ import com.atmecs.demo_blazesite.helpers.Helpers;
 import com.atmecs.demo_blazesite.utilities.Logging;
 import com.atmecs.demo_blazesite.utilities.PropertyReader;
 
-public class AddProductToCartTest
+public class AddProductToCartPage
 {
 	public WebDriver driver;
 
@@ -19,7 +19,7 @@ public class AddProductToCartTest
 	
 	Logging log;
 	
-	public AddProductToCartTest(WebDriver driver) 
+	public AddProductToCartPage(WebDriver driver) 
 	{
 		this.driver = driver;
 	}

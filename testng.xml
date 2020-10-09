@@ -10,20 +10,20 @@
  <test thread-count="5" name="test1">
   <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.atmecs.demo_blazesite.tests.AddProduct"/>
-      <class name="com.atmecs.demo_blazesite.tests.ContactUs"/>
-      <class name="com.atmecs.demo_blazesite.tests.SignIn"/>
-      <class name="com.atmecs.demo_blazesite.tests.Login"/>
+      <class name="com.atmecs.demo_blazesite.tests.AddProductTest"/>
+      <class name="com.atmecs.demo_blazesite.tests.ContactUsTest"/>
+      <class name="com.atmecs.demo_blazesite.tests.SignInTest"/>
+      <class name="com.atmecs.demo_blazesite.tests.LoginTest"/>
     </classes>
   </test>
   
   <test thread-count="5" name="test2">
   <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="com.atmecs.demo_blazesite.tests.AddProduct"/>
-      <class name="com.atmecs.demo_blazesite.tests.ContactUs"/>
-      <class name="com.atmecs.demo_blazesite.tests.SignIn"/>
-      <class name="com.atmecs.demo_blazesite.tests.Login"/>
+      <class name="com.atmecs.demo_blazesite.tests.AddProductTest"/>
+      <class name="com.atmecs.demo_blazesite.tests.ContactUsTest"/>
+      <class name="com.atmecs.demo_blazesite.tests.SignInTest"/>
+      <class name="com.atmecs.demo_blazesite.tests.LoginTest"/>
     </classes>
   </test>
   

@@ -8,8 +8,9 @@ import com.atmecs.demo_blazesite.constants.Constants;
 import com.atmecs.demo_blazesite.helpers.Helpers;
 import com.atmecs.demo_blazesite.utilities.Logging;
 import com.atmecs.demo_blazesite.utilities.PropertyReader;
+import com.atmecs.demo_blazesite.utilities.ReadDataFromExcel;
 
-public class ContactUsTest
+public class ContactUsPage
 {
 	public WebDriver driver;
 
@@ -17,11 +18,11 @@ public class ContactUsTest
 
 	Properties locatorsFile;
 	
-	Properties datas;
+	//Object[][] datas;
 	
 	Logging log;
 
-	public ContactUsTest(WebDriver driver) 
+	public ContactUsPage(WebDriver driver) 
 	{
 		this.driver = driver;
 	}
@@ -33,6 +34,8 @@ public class ContactUsTest
 		log = new Logging();
 
 		locatorsFile = PropertyReader.readProperties(Constants.LOCATORS);
+		
+		//datas = ReadDataFromExcel.readExcelData(Constants.CONTACTUS_DATA, "ContactUS");
 
 		helpers.clickOperation(locatorsFile.getProperty("contactUs"));
 		

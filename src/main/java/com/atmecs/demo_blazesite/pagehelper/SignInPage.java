@@ -9,7 +9,7 @@ import com.atmecs.demo_blazesite.helpers.Helpers;
 import com.atmecs.demo_blazesite.utilities.Logging;
 import com.atmecs.demo_blazesite.utilities.PropertyReader;
 
-public class SignInTest 
+public class SignInPage 
 {
 	public WebDriver driver;
 
@@ -21,7 +21,7 @@ public class SignInTest
 	
 	Logging log;
 
-	public SignInTest(WebDriver driver) 
+	public SignInPage(WebDriver driver) 
 	{
 		this.driver = driver;
 	}

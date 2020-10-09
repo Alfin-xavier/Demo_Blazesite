@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="34" passed="34" failed="0" skipped="0">
+<testng-results ignored="0" total="34" passed="30" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-10-08T11:10:41 IST" name="Suite" finished-at="2020-10-08T11:14:21 IST" duration-ms="220792">
+  <suite started-at="2020-10-09T15:23:51 IST" name="Suite" finished-at="2020-10-09T15:28:32 IST" duration-ms="280272">
     <groups>
     </groups>
-    <test started-at="2020-10-08T11:10:41 IST" name="test1" finished-at="2020-10-08T11:14:21 IST" duration-ms="220091">
-      <class name="com.atmecs.demo_blazesite.tests.Login">
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.Login@19d37183]" started-at="2020-10-08T11:13:27 IST" name="beforeTest" finished-at="2020-10-08T11:13:38 IST" duration-ms="10339" status="PASS">
+    <test started-at="2020-10-09T15:23:51 IST" name="test1" finished-at="2020-10-09T15:28:02 IST" duration-ms="250777">
+      <class name="com.atmecs.demo_blazesite.tests.ContactUsTest">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUsTest@5ad851c9]" started-at="2020-10-09T15:24:10 IST" name="beforeTest" finished-at="2020-10-09T15:24:19 IST" duration-ms="8227" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,164 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.Login@19d37183]" started-at="2020-10-08T11:13:38 IST" name="logIn" data-provider="readData" finished-at="2020-10-08T11:13:38 IST" duration-ms="518" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[dev]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Dev@12]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logIn -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.Login@19d37183]" started-at="2020-10-08T11:13:38 IST" name="afterTest" finished-at="2020-10-08T11:13:39 IST" duration-ms="1087" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.Login@19d37183]" started-at="2020-10-08T11:13:39 IST" name="beforeTest" finished-at="2020-10-08T11:13:51 IST" duration-ms="11670" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.Login@19d37183]" started-at="2020-10-08T11:13:51 IST" name="logIn" data-provider="readData" finished-at="2020-10-08T11:13:51 IST" duration-ms="589" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[swg]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[swg@11]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logIn -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.Login@19d37183]" started-at="2020-10-08T11:13:51 IST" name="afterTest" finished-at="2020-10-08T11:13:52 IST" duration-ms="754" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.Login@19d37183]" started-at="2020-10-08T11:13:52 IST" name="beforeTest" finished-at="2020-10-08T11:14:00 IST" duration-ms="8017" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.Login@19d37183]" started-at="2020-10-08T11:14:00 IST" name="logIn" data-provider="readData" finished-at="2020-10-08T11:14:01 IST" duration-ms="728" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[dev]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Dev@13]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logIn -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.Login@19d37183]" started-at="2020-10-08T11:14:01 IST" name="afterTest" finished-at="2020-10-08T11:14:01 IST" duration-ms="413" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.Login@19d37183]" started-at="2020-10-08T11:14:01 IST" name="beforeTest" finished-at="2020-10-08T11:14:11 IST" duration-ms="9403" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.Login@19d37183]" started-at="2020-10-08T11:14:11 IST" name="logIn" data-provider="readData" finished-at="2020-10-08T11:14:11 IST" duration-ms="484" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[swg]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[swg@12]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logIn -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.Login@19d37183]" started-at="2020-10-08T11:14:11 IST" name="afterTest" finished-at="2020-10-08T11:14:12 IST" duration-ms="324" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.Login@19d37183]" started-at="2020-10-08T11:14:12 IST" name="beforeTest" finished-at="2020-10-08T11:14:19 IST" duration-ms="7861" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.Login@19d37183]" started-at="2020-10-08T11:14:19 IST" name="logIn" data-provider="readData" finished-at="2020-10-08T11:14:20 IST" duration-ms="556" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[dev]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Dev@14]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logIn -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.Login@19d37183]" started-at="2020-10-08T11:14:20 IST" name="afterTest" finished-at="2020-10-08T11:14:21 IST" duration-ms="704" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- com.atmecs.demo_blazesite.tests.Login -->
-      <class name="com.atmecs.demo_blazesite.tests.ContactUs">
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUs@5e4c8041]" started-at="2020-10-08T11:11:00 IST" name="beforeTest" finished-at="2020-10-08T11:11:07 IST" duration-ms="7221" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="contactUs(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUs@5e4c8041]" started-at="2020-10-08T11:11:07 IST" name="contactUs" data-provider="readData" finished-at="2020-10-08T11:11:08 IST" duration-ms="735" status="PASS">
+        <test-method signature="contactUs(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUsTest@5ad851c9]" started-at="2020-10-09T15:24:19 IST" name="contactUs" data-provider="contact_us" finished-at="2020-10-09T15:24:19 IST" duration-ms="884" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -196,11 +39,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactUs -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUs@5e4c8041]" started-at="2020-10-08T11:11:08 IST" name="afterTest" finished-at="2020-10-08T11:11:12 IST" duration-ms="4178" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUsTest@5ad851c9]" started-at="2020-10-09T15:24:19 IST" name="afterTest" finished-at="2020-10-09T15:24:20 IST" duration-ms="276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUs@5e4c8041]" started-at="2020-10-08T11:11:12 IST" name="beforeTest" finished-at="2020-10-08T11:11:21 IST" duration-ms="8976" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUsTest@5ad851c9]" started-at="2020-10-09T15:24:20 IST" name="beforeTest" finished-at="2020-10-09T15:24:28 IST" duration-ms="8072" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -211,7 +54,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="contactUs(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUs@5e4c8041]" started-at="2020-10-08T11:11:21 IST" name="contactUs" data-provider="readData" finished-at="2020-10-08T11:11:22 IST" duration-ms="823" status="PASS">
+        <test-method signature="contactUs(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUsTest@5ad851c9]" started-at="2020-10-09T15:24:28 IST" name="contactUs" data-provider="contact_us" finished-at="2020-10-09T15:24:29 IST" duration-ms="845" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -232,11 +75,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactUs -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUs@5e4c8041]" started-at="2020-10-08T11:11:22 IST" name="afterTest" finished-at="2020-10-08T11:11:23 IST" duration-ms="1263" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUsTest@5ad851c9]" started-at="2020-10-09T15:24:29 IST" name="afterTest" finished-at="2020-10-09T15:24:32 IST" duration-ms="2876" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUs@5e4c8041]" started-at="2020-10-08T11:11:23 IST" name="beforeTest" finished-at="2020-10-08T11:11:33 IST" duration-ms="10368" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUsTest@5ad851c9]" started-at="2020-10-09T15:24:32 IST" name="beforeTest" finished-at="2020-10-09T15:24:38 IST" duration-ms="6929" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -247,7 +90,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="contactUs(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUs@5e4c8041]" started-at="2020-10-08T11:11:33 IST" name="contactUs" data-provider="readData" finished-at="2020-10-08T11:11:34 IST" duration-ms="737" status="PASS">
+        <test-method signature="contactUs(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUsTest@5ad851c9]" started-at="2020-10-09T15:24:38 IST" name="contactUs" data-provider="contact_us" finished-at="2020-10-09T15:24:39 IST" duration-ms="660" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -268,11 +111,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactUs -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUs@5e4c8041]" started-at="2020-10-08T11:11:34 IST" name="afterTest" finished-at="2020-10-08T11:11:35 IST" duration-ms="700" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUsTest@5ad851c9]" started-at="2020-10-09T15:24:39 IST" name="afterTest" finished-at="2020-10-09T15:24:40 IST" duration-ms="566" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUs@5e4c8041]" started-at="2020-10-08T11:11:35 IST" name="beforeTest" finished-at="2020-10-08T11:11:43 IST" duration-ms="8532" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUsTest@5ad851c9]" started-at="2020-10-09T15:24:40 IST" name="beforeTest" finished-at="2020-10-09T15:24:47 IST" duration-ms="7722" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -283,7 +126,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="contactUs(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUs@5e4c8041]" started-at="2020-10-08T11:11:43 IST" name="contactUs" data-provider="readData" finished-at="2020-10-08T11:11:44 IST" duration-ms="636" status="PASS">
+        <test-method signature="contactUs(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUsTest@5ad851c9]" started-at="2020-10-09T15:24:47 IST" name="contactUs" data-provider="contact_us" finished-at="2020-10-09T15:24:48 IST" duration-ms="517" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -304,11 +147,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactUs -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUs@5e4c8041]" started-at="2020-10-08T11:11:44 IST" name="afterTest" finished-at="2020-10-08T11:11:48 IST" duration-ms="4325" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUsTest@5ad851c9]" started-at="2020-10-09T15:24:48 IST" name="afterTest" finished-at="2020-10-09T15:24:52 IST" duration-ms="4526" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUs@5e4c8041]" started-at="2020-10-08T11:11:48 IST" name="beforeTest" finished-at="2020-10-08T11:11:55 IST" duration-ms="7111" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUsTest@5ad851c9]" started-at="2020-10-09T15:24:52 IST" name="beforeTest" finished-at="2020-10-09T15:25:02 IST" duration-ms="10000" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -319,7 +162,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="contactUs(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUs@5e4c8041]" started-at="2020-10-08T11:11:55 IST" name="contactUs" data-provider="readData" finished-at="2020-10-08T11:11:56 IST" duration-ms="1176" status="PASS">
+        <test-method signature="contactUs(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUsTest@5ad851c9]" started-at="2020-10-09T15:25:02 IST" name="contactUs" data-provider="contact_us" finished-at="2020-10-09T15:25:03 IST" duration-ms="754" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -340,11 +183,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactUs -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUs@5e4c8041]" started-at="2020-10-08T11:11:56 IST" name="afterTest" finished-at="2020-10-08T11:12:07 IST" duration-ms="10915" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUsTest@5ad851c9]" started-at="2020-10-09T15:25:03 IST" name="afterTest" finished-at="2020-10-09T15:25:04 IST" duration-ms="727" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUs@5e4c8041]" started-at="2020-10-08T11:12:07 IST" name="beforeTest" finished-at="2020-10-08T11:12:16 IST" duration-ms="8941" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUsTest@5ad851c9]" started-at="2020-10-09T15:25:04 IST" name="beforeTest" finished-at="2020-10-09T15:25:13 IST" duration-ms="8693" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -355,7 +198,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="contactUs(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUs@5e4c8041]" started-at="2020-10-08T11:12:16 IST" name="contactUs" data-provider="readData" finished-at="2020-10-08T11:12:17 IST" duration-ms="518" status="PASS">
+        <test-method signature="contactUs(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUsTest@5ad851c9]" started-at="2020-10-09T15:25:13 IST" name="contactUs" data-provider="contact_us" finished-at="2020-10-09T15:25:13 IST" duration-ms="676" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -376,13 +219,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactUs -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUs@5e4c8041]" started-at="2020-10-08T11:12:17 IST" name="afterTest" finished-at="2020-10-08T11:12:21 IST" duration-ms="4331" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUsTest@5ad851c9]" started-at="2020-10-09T15:25:13 IST" name="afterTest" finished-at="2020-10-09T15:25:18 IST" duration-ms="4284" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.atmecs.demo_blazesite.tests.ContactUs -->
-      <class name="com.atmecs.demo_blazesite.tests.SignIn">
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.SignIn@71c8becc]" started-at="2020-10-08T11:12:21 IST" name="beforeTest" finished-at="2020-10-08T11:12:30 IST" duration-ms="8574" status="PASS">
+      </class> <!-- com.atmecs.demo_blazesite.tests.ContactUsTest -->
+      <class name="com.atmecs.demo_blazesite.tests.SignInTest">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.SignInTest@6156496]" started-at="2020-10-09T15:25:18 IST" name="beforeTest" finished-at="2020-10-09T15:25:26 IST" duration-ms="8603" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -393,7 +236,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="signIn(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.SignIn@71c8becc]" started-at="2020-10-08T11:12:30 IST" name="signIn" data-provider="readData" finished-at="2020-10-08T11:12:32 IST" duration-ms="2069" status="PASS">
+        <test-method signature="signIn(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.SignInTest@6156496]" started-at="2020-10-09T15:25:26 IST" name="signIn" data-provider="login" finished-at="2020-10-09T15:25:29 IST" duration-ms="3023" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -409,11 +252,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signIn -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.SignIn@71c8becc]" started-at="2020-10-08T11:12:32 IST" name="afterTest" finished-at="2020-10-08T11:12:32 IST" duration-ms="499" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.SignInTest@6156496]" started-at="2020-10-09T15:25:29 IST" name="afterTest" finished-at="2020-10-09T15:25:30 IST" duration-ms="596" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.SignIn@71c8becc]" started-at="2020-10-08T11:12:32 IST" name="beforeTest" finished-at="2020-10-08T11:12:42 IST" duration-ms="9615" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.SignInTest@6156496]" started-at="2020-10-09T15:25:30 IST" name="beforeTest" finished-at="2020-10-09T15:25:40 IST" duration-ms="9793" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -424,7 +267,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="signIn(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.SignIn@71c8becc]" started-at="2020-10-08T11:12:42 IST" name="signIn" data-provider="readData" finished-at="2020-10-08T11:12:46 IST" duration-ms="4308" status="PASS">
+        <test-method signature="signIn(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.SignInTest@6156496]" started-at="2020-10-09T15:25:40 IST" name="signIn" data-provider="login" finished-at="2020-10-09T15:25:45 IST" duration-ms="5650" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -437,14 +280,61 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for alert to be present (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:58950}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bb9f434a0cd47e6e509c234be7fc858f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for alert to be present (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:58950}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bb9f434a0cd47e6e509c234be7fc858f
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at com.atmecs.demo_blazesite.helpers.Helpers.WaitAndSwitchToAlert(Helpers.java:22)
+at com.atmecs.demo_blazesite.pagehelper.SignInPage.signUpTest(SignInPage.java:53)
+at com.atmecs.demo_blazesite.tests.SignInTest.signIn(SignInTest.java:17)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signIn -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.SignIn@71c8becc]" started-at="2020-10-08T11:12:46 IST" name="afterTest" finished-at="2020-10-08T11:12:51 IST" duration-ms="4329" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.SignInTest@6156496]" started-at="2020-10-09T15:25:46 IST" name="afterTest" finished-at="2020-10-09T15:25:47 IST" duration-ms="1394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.SignIn@71c8becc]" started-at="2020-10-08T11:12:51 IST" name="beforeTest" finished-at="2020-10-08T11:13:02 IST" duration-ms="11138" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.SignInTest@6156496]" started-at="2020-10-09T15:25:47 IST" name="beforeTest" finished-at="2020-10-09T15:26:02 IST" duration-ms="14884" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -455,7 +345,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="signIn(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.SignIn@71c8becc]" started-at="2020-10-08T11:13:02 IST" name="signIn" data-provider="readData" finished-at="2020-10-08T11:13:03 IST" duration-ms="1298" status="PASS">
+        <test-method signature="signIn(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.SignInTest@6156496]" started-at="2020-10-09T15:26:02 IST" name="signIn" data-provider="login" finished-at="2020-10-09T15:26:08 IST" duration-ms="5488" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -468,14 +358,61 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for alert to be present (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:59006}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 495aec3d4723f3acc6a6bf38548fb956]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for alert to be present (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:59006}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 495aec3d4723f3acc6a6bf38548fb956
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at com.atmecs.demo_blazesite.helpers.Helpers.WaitAndSwitchToAlert(Helpers.java:22)
+at com.atmecs.demo_blazesite.pagehelper.SignInPage.signUpTest(SignInPage.java:53)
+at com.atmecs.demo_blazesite.tests.SignInTest.signIn(SignInTest.java:17)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signIn -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.SignIn@71c8becc]" started-at="2020-10-08T11:13:03 IST" name="afterTest" finished-at="2020-10-08T11:13:04 IST" duration-ms="868" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.SignInTest@6156496]" started-at="2020-10-09T15:26:08 IST" name="afterTest" finished-at="2020-10-09T15:26:08 IST" duration-ms="253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.SignIn@71c8becc]" started-at="2020-10-08T11:13:04 IST" name="beforeTest" finished-at="2020-10-08T11:13:12 IST" duration-ms="7828" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.SignInTest@6156496]" started-at="2020-10-09T15:26:08 IST" name="beforeTest" finished-at="2020-10-09T15:26:25 IST" duration-ms="16409" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -486,7 +423,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="signIn(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.SignIn@71c8becc]" started-at="2020-10-08T11:13:12 IST" name="signIn" data-provider="readData" finished-at="2020-10-08T11:13:13 IST" duration-ms="1485" status="PASS">
+        <test-method signature="signIn(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.SignInTest@6156496]" started-at="2020-10-09T15:26:25 IST" name="signIn" data-provider="login" finished-at="2020-10-09T15:26:30 IST" duration-ms="5535" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -499,14 +436,61 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for alert to be present (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:59072}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 343747ce38659fe2200a70bdc5bcba59]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for alert to be present (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:59072}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 343747ce38659fe2200a70bdc5bcba59
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at com.atmecs.demo_blazesite.helpers.Helpers.WaitAndSwitchToAlert(Helpers.java:22)
+at com.atmecs.demo_blazesite.pagehelper.SignInPage.signUpTest(SignInPage.java:53)
+at com.atmecs.demo_blazesite.tests.SignInTest.signIn(SignInTest.java:17)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signIn -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.SignIn@71c8becc]" started-at="2020-10-08T11:13:13 IST" name="afterTest" finished-at="2020-10-08T11:13:17 IST" duration-ms="4126" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.SignInTest@6156496]" started-at="2020-10-09T15:26:30 IST" name="afterTest" finished-at="2020-10-09T15:26:35 IST" duration-ms="4330" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.SignIn@71c8becc]" started-at="2020-10-08T11:13:17 IST" name="beforeTest" finished-at="2020-10-08T11:13:24 IST" duration-ms="7054" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.SignInTest@6156496]" started-at="2020-10-09T15:26:35 IST" name="beforeTest" finished-at="2020-10-09T15:26:43 IST" duration-ms="8382" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -517,7 +501,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="signIn(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.SignIn@71c8becc]" started-at="2020-10-08T11:13:24 IST" name="signIn" data-provider="readData" finished-at="2020-10-08T11:13:26 IST" duration-ms="1591" status="PASS">
+        <test-method signature="signIn(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.SignInTest@6156496]" started-at="2020-10-09T15:26:43 IST" name="signIn" data-provider="login" finished-at="2020-10-09T15:26:45 IST" duration-ms="1641" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -533,13 +517,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signIn -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.SignIn@71c8becc]" started-at="2020-10-08T11:13:26 IST" name="afterTest" finished-at="2020-10-08T11:13:27 IST" duration-ms="1117" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.SignInTest@6156496]" started-at="2020-10-09T15:26:45 IST" name="afterTest" finished-at="2020-10-09T15:26:48 IST" duration-ms="3089" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.atmecs.demo_blazesite.tests.SignIn -->
-      <class name="com.atmecs.demo_blazesite.tests.AddProduct">
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.AddProduct@3745e5c6]" started-at="2020-10-08T11:10:41 IST" name="beforeTest" finished-at="2020-10-08T11:10:51 IST" duration-ms="10037" status="PASS">
+      </class> <!-- com.atmecs.demo_blazesite.tests.SignInTest -->
+      <class name="com.atmecs.demo_blazesite.tests.AddProductTest">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.AddProductTest@5c1a8622]" started-at="2020-10-09T15:23:51 IST" name="beforeTest" finished-at="2020-10-09T15:24:00 IST" duration-ms="8145" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -550,19 +534,176 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="addProduct()[pri:0, instance:com.atmecs.demo_blazesite.tests.AddProduct@3745e5c6]" started-at="2020-10-08T11:10:51 IST" name="addProduct" finished-at="2020-10-08T11:10:55 IST" duration-ms="3864" status="PASS">
+        <test-method signature="addProduct()[pri:0, instance:com.atmecs.demo_blazesite.tests.AddProductTest@5c1a8622]" started-at="2020-10-09T15:24:00 IST" name="addProduct" finished-at="2020-10-09T15:24:06 IST" duration-ms="5953" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProduct -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.AddProduct@3745e5c6]" started-at="2020-10-08T11:10:55 IST" name="afterTest" finished-at="2020-10-08T11:10:59 IST" duration-ms="4095" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.AddProductTest@5c1a8622]" started-at="2020-10-09T15:24:06 IST" name="afterTest" finished-at="2020-10-09T15:24:10 IST" duration-ms="4094" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.atmecs.demo_blazesite.tests.AddProduct -->
+      </class> <!-- com.atmecs.demo_blazesite.tests.AddProductTest -->
+      <class name="com.atmecs.demo_blazesite.tests.LoginTest">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.LoginTest@3c153a1]" started-at="2020-10-09T15:26:48 IST" name="beforeTest" finished-at="2020-10-09T15:26:59 IST" duration-ms="11337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.LoginTest@3c153a1]" started-at="2020-10-09T15:26:59 IST" name="logIn" data-provider="login" finished-at="2020-10-09T15:27:00 IST" duration-ms="547" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dev@12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.LoginTest@3c153a1]" started-at="2020-10-09T15:27:00 IST" name="afterTest" finished-at="2020-10-09T15:27:04 IST" duration-ms="4119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.LoginTest@3c153a1]" started-at="2020-10-09T15:27:04 IST" name="beforeTest" finished-at="2020-10-09T15:27:23 IST" duration-ms="19140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.LoginTest@3c153a1]" started-at="2020-10-09T15:27:23 IST" name="logIn" data-provider="login" finished-at="2020-10-09T15:27:24 IST" duration-ms="427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[swg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[swg@11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.LoginTest@3c153a1]" started-at="2020-10-09T15:27:24 IST" name="afterTest" finished-at="2020-10-09T15:27:24 IST" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.LoginTest@3c153a1]" started-at="2020-10-09T15:27:24 IST" name="beforeTest" finished-at="2020-10-09T15:27:36 IST" duration-ms="12162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.LoginTest@3c153a1]" started-at="2020-10-09T15:27:36 IST" name="logIn" data-provider="login" finished-at="2020-10-09T15:27:36 IST" duration-ms="523" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dev@13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.LoginTest@3c153a1]" started-at="2020-10-09T15:27:36 IST" name="afterTest" finished-at="2020-10-09T15:27:37 IST" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.LoginTest@3c153a1]" started-at="2020-10-09T15:27:37 IST" name="beforeTest" finished-at="2020-10-09T15:27:50 IST" duration-ms="13142" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.LoginTest@3c153a1]" started-at="2020-10-09T15:27:50 IST" name="logIn" data-provider="login" finished-at="2020-10-09T15:27:50 IST" duration-ms="532" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[swg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[swg@12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.LoginTest@3c153a1]" started-at="2020-10-09T15:27:50 IST" name="afterTest" finished-at="2020-10-09T15:27:52 IST" duration-ms="1364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.LoginTest@3c153a1]" started-at="2020-10-09T15:27:52 IST" name="beforeTest" finished-at="2020-10-09T15:28:01 IST" duration-ms="9624" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.LoginTest@3c153a1]" started-at="2020-10-09T15:28:01 IST" name="logIn" data-provider="login" finished-at="2020-10-09T15:28:02 IST" duration-ms="382" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dev@14]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.LoginTest@3c153a1]" started-at="2020-10-09T15:28:02 IST" name="afterTest" finished-at="2020-10-09T15:28:02 IST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.atmecs.demo_blazesite.tests.LoginTest -->
     </test> <!-- test1 -->
-    <test started-at="2020-10-08T11:10:41 IST" name="test2" finished-at="2020-10-08T11:14:21 IST" duration-ms="220792">
-      <class name="com.atmecs.demo_blazesite.tests.Login">
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.Login@223f3642]" started-at="2020-10-08T11:13:22 IST" name="beforeTest" finished-at="2020-10-08T11:13:30 IST" duration-ms="8365" status="PASS">
+    <test started-at="2020-10-09T15:23:51 IST" name="test2" finished-at="2020-10-09T15:28:32 IST" duration-ms="280272">
+      <class name="com.atmecs.demo_blazesite.tests.ContactUsTest">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUsTest@23986957]" started-at="2020-10-09T15:24:12 IST" name="beforeTest" finished-at="2020-10-09T15:24:21 IST" duration-ms="9555" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -573,7 +714,225 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.Login@223f3642]" started-at="2020-10-08T11:13:30 IST" name="logIn" data-provider="readData" finished-at="2020-10-08T11:13:31 IST" duration-ms="701" status="PASS">
+        <test-method signature="contactUs(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUsTest@23986957]" started-at="2020-10-09T15:24:21 IST" name="contactUs" data-provider="contact_us" finished-at="2020-10-09T15:24:22 IST" duration-ms="644" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Good One]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUs -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUsTest@23986957]" started-at="2020-10-09T15:24:22 IST" name="afterTest" finished-at="2020-10-09T15:24:24 IST" duration-ms="2454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUsTest@23986957]" started-at="2020-10-09T15:24:24 IST" name="beforeTest" finished-at="2020-10-09T15:24:34 IST" duration-ms="9569" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="contactUs(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUsTest@23986957]" started-at="2020-10-09T15:24:34 IST" name="contactUs" data-provider="contact_us" finished-at="2020-10-09T15:24:35 IST" duration-ms="671" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[def@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Good One]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUs -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUsTest@23986957]" started-at="2020-10-09T15:24:35 IST" name="afterTest" finished-at="2020-10-09T15:24:38 IST" duration-ms="3132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUsTest@23986957]" started-at="2020-10-09T15:24:38 IST" name="beforeTest" finished-at="2020-10-09T15:24:46 IST" duration-ms="8069" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="contactUs(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUsTest@23986957]" started-at="2020-10-09T15:24:46 IST" name="contactUs" data-provider="contact_us" finished-at="2020-10-09T15:24:46 IST" duration-ms="531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Good One]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUs -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUsTest@23986957]" started-at="2020-10-09T15:24:46 IST" name="afterTest" finished-at="2020-10-09T15:24:50 IST" duration-ms="3223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUsTest@23986957]" started-at="2020-10-09T15:24:50 IST" name="beforeTest" finished-at="2020-10-09T15:24:59 IST" duration-ms="9652" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="contactUs(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUsTest@23986957]" started-at="2020-10-09T15:24:59 IST" name="contactUs" data-provider="contact_us" finished-at="2020-10-09T15:25:00 IST" duration-ms="685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[def@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Good One]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUs -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUsTest@23986957]" started-at="2020-10-09T15:25:00 IST" name="afterTest" finished-at="2020-10-09T15:25:03 IST" duration-ms="2594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUsTest@23986957]" started-at="2020-10-09T15:25:03 IST" name="beforeTest" finished-at="2020-10-09T15:25:12 IST" duration-ms="9005" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="contactUs(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUsTest@23986957]" started-at="2020-10-09T15:25:12 IST" name="contactUs" data-provider="contact_us" finished-at="2020-10-09T15:25:12 IST" duration-ms="761" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Good One]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUs -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUsTest@23986957]" started-at="2020-10-09T15:25:12 IST" name="afterTest" finished-at="2020-10-09T15:25:17 IST" duration-ms="4475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUsTest@23986957]" started-at="2020-10-09T15:25:17 IST" name="beforeTest" finished-at="2020-10-09T15:25:25 IST" duration-ms="8541" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="contactUs(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUsTest@23986957]" started-at="2020-10-09T15:25:25 IST" name="contactUs" data-provider="contact_us" finished-at="2020-10-09T15:25:26 IST" duration-ms="527" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[def@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Good One]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUs -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUsTest@23986957]" started-at="2020-10-09T15:25:26 IST" name="afterTest" finished-at="2020-10-09T15:25:29 IST" duration-ms="2639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.atmecs.demo_blazesite.tests.ContactUsTest -->
+      <class name="com.atmecs.demo_blazesite.tests.SignInTest">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.SignInTest@23f7d05d]" started-at="2020-10-09T15:25:29 IST" name="beforeTest" finished-at="2020-10-09T15:25:39 IST" duration-ms="10465" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="signIn(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.SignInTest@23f7d05d]" started-at="2020-10-09T15:25:39 IST" name="signIn" data-provider="login" finished-at="2020-10-09T15:25:45 IST" duration-ms="5730" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -586,389 +945,61 @@
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logIn -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.Login@223f3642]" started-at="2020-10-08T11:13:31 IST" name="afterTest" finished-at="2020-10-08T11:13:35 IST" duration-ms="3364" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.Login@223f3642]" started-at="2020-10-08T11:13:35 IST" name="beforeTest" finished-at="2020-10-08T11:13:43 IST" duration-ms="8642" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.Login@223f3642]" started-at="2020-10-08T11:13:43 IST" name="logIn" data-provider="readData" finished-at="2020-10-08T11:13:44 IST" duration-ms="706" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[swg]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[swg@11]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logIn -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.Login@223f3642]" started-at="2020-10-08T11:13:44 IST" name="afterTest" finished-at="2020-10-08T11:13:47 IST" duration-ms="3336" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.Login@223f3642]" started-at="2020-10-08T11:13:47 IST" name="beforeTest" finished-at="2020-10-08T11:13:53 IST" duration-ms="6020" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.Login@223f3642]" started-at="2020-10-08T11:13:53 IST" name="logIn" data-provider="readData" finished-at="2020-10-08T11:13:54 IST" duration-ms="727" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[dev]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Dev@13]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logIn -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.Login@223f3642]" started-at="2020-10-08T11:13:54 IST" name="afterTest" finished-at="2020-10-08T11:13:57 IST" duration-ms="3012" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.Login@223f3642]" started-at="2020-10-08T11:13:57 IST" name="beforeTest" finished-at="2020-10-08T11:14:07 IST" duration-ms="9770" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.Login@223f3642]" started-at="2020-10-08T11:14:07 IST" name="logIn" data-provider="readData" finished-at="2020-10-08T11:14:07 IST" duration-ms="703" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[swg]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[swg@12]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logIn -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.Login@223f3642]" started-at="2020-10-08T11:14:07 IST" name="afterTest" finished-at="2020-10-08T11:14:10 IST" duration-ms="2204" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.Login@223f3642]" started-at="2020-10-08T11:14:10 IST" name="beforeTest" finished-at="2020-10-08T11:14:17 IST" duration-ms="7495" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.Login@223f3642]" started-at="2020-10-08T11:14:17 IST" name="logIn" data-provider="readData" finished-at="2020-10-08T11:14:18 IST" duration-ms="639" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[dev]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Dev@14]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logIn -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.Login@223f3642]" started-at="2020-10-08T11:14:18 IST" name="afterTest" finished-at="2020-10-08T11:14:21 IST" duration-ms="3538" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- com.atmecs.demo_blazesite.tests.Login -->
-      <class name="com.atmecs.demo_blazesite.tests.ContactUs">
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUs@5bfa9431]" started-at="2020-10-08T11:11:04 IST" name="beforeTest" finished-at="2020-10-08T11:11:11 IST" duration-ms="7247" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="contactUs(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUs@5bfa9431]" started-at="2020-10-08T11:11:11 IST" name="contactUs" data-provider="readData" finished-at="2020-10-08T11:11:12 IST" duration-ms="562" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abc@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[abc]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Good One]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contactUs -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUs@5bfa9431]" started-at="2020-10-08T11:11:12 IST" name="afterTest" finished-at="2020-10-08T11:11:14 IST" duration-ms="2626" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUs@5bfa9431]" started-at="2020-10-08T11:11:14 IST" name="beforeTest" finished-at="2020-10-08T11:11:21 IST" duration-ms="7031" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="contactUs(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUs@5bfa9431]" started-at="2020-10-08T11:11:21 IST" name="contactUs" data-provider="readData" finished-at="2020-10-08T11:11:22 IST" duration-ms="931" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[def@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[abc]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Good One]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contactUs -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUs@5bfa9431]" started-at="2020-10-08T11:11:22 IST" name="afterTest" finished-at="2020-10-08T11:11:25 IST" duration-ms="3065" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUs@5bfa9431]" started-at="2020-10-08T11:11:25 IST" name="beforeTest" finished-at="2020-10-08T11:11:34 IST" duration-ms="8837" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="contactUs(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUs@5bfa9431]" started-at="2020-10-08T11:11:34 IST" name="contactUs" data-provider="readData" finished-at="2020-10-08T11:11:35 IST" duration-ms="679" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abc@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[abc]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Good One]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contactUs -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUs@5bfa9431]" started-at="2020-10-08T11:11:35 IST" name="afterTest" finished-at="2020-10-08T11:11:38 IST" duration-ms="2726" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUs@5bfa9431]" started-at="2020-10-08T11:11:38 IST" name="beforeTest" finished-at="2020-10-08T11:11:45 IST" duration-ms="6964" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="contactUs(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUs@5bfa9431]" started-at="2020-10-08T11:11:45 IST" name="contactUs" data-provider="readData" finished-at="2020-10-08T11:11:45 IST" duration-ms="467" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[def@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[abc]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Good One]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contactUs -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUs@5bfa9431]" started-at="2020-10-08T11:11:45 IST" name="afterTest" finished-at="2020-10-08T11:11:48 IST" duration-ms="2420" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUs@5bfa9431]" started-at="2020-10-08T11:11:48 IST" name="beforeTest" finished-at="2020-10-08T11:11:57 IST" duration-ms="9674" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="contactUs(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUs@5bfa9431]" started-at="2020-10-08T11:11:57 IST" name="contactUs" data-provider="readData" finished-at="2020-10-08T11:11:58 IST" duration-ms="842" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abc@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[abc]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Good One]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contactUs -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUs@5bfa9431]" started-at="2020-10-08T11:11:58 IST" name="afterTest" finished-at="2020-10-08T11:12:04 IST" duration-ms="6114" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUs@5bfa9431]" started-at="2020-10-08T11:12:04 IST" name="beforeTest" finished-at="2020-10-08T11:12:14 IST" duration-ms="9921" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="contactUs(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUs@5bfa9431]" started-at="2020-10-08T11:12:14 IST" name="contactUs" data-provider="readData" finished-at="2020-10-08T11:12:15 IST" duration-ms="681" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[def@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[abc]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Good One]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contactUs -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.ContactUs@5bfa9431]" started-at="2020-10-08T11:12:15 IST" name="afterTest" finished-at="2020-10-08T11:12:20 IST" duration-ms="4856" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- com.atmecs.demo_blazesite.tests.ContactUs -->
-      <class name="com.atmecs.demo_blazesite.tests.SignIn">
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.SignIn@5db250b4]" started-at="2020-10-08T11:12:20 IST" name="beforeTest" finished-at="2020-10-08T11:12:28 IST" duration-ms="8704" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="signIn(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.SignIn@5db250b4]" started-at="2020-10-08T11:12:28 IST" name="signIn" data-provider="readData" finished-at="2020-10-08T11:12:30 IST" duration-ms="1810" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[dev]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Dev@12]]>
-              </value>
-            </param>
-          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for alert to be present (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 19216, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e059dd8b-f8d9-4eac-9db1-bc29eeded628]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for alert to be present (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 19216, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e059dd8b-f8d9-4eac-9db1-bc29eeded628
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at com.atmecs.demo_blazesite.helpers.Helpers.WaitAndSwitchToAlert(Helpers.java:22)
+at com.atmecs.demo_blazesite.pagehelper.SignInPage.signUpTest(SignInPage.java:53)
+at com.atmecs.demo_blazesite.tests.SignInTest.signIn(SignInTest.java:17)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signIn -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.SignIn@5db250b4]" started-at="2020-10-08T11:12:30 IST" name="afterTest" finished-at="2020-10-08T11:12:33 IST" duration-ms="2734" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.SignInTest@23f7d05d]" started-at="2020-10-09T15:25:46 IST" name="afterTest" finished-at="2020-10-09T15:25:49 IST" duration-ms="3121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.SignIn@5db250b4]" started-at="2020-10-08T11:12:33 IST" name="beforeTest" finished-at="2020-10-08T11:12:41 IST" duration-ms="7640" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.SignInTest@23f7d05d]" started-at="2020-10-09T15:25:49 IST" name="beforeTest" finished-at="2020-10-09T15:26:08 IST" duration-ms="19592" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -979,7 +1010,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="signIn(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.SignIn@5db250b4]" started-at="2020-10-08T11:12:41 IST" name="signIn" data-provider="readData" finished-at="2020-10-08T11:12:42 IST" duration-ms="1840" status="PASS">
+        <test-method signature="signIn(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.SignInTest@23f7d05d]" started-at="2020-10-09T15:26:08 IST" name="signIn" data-provider="login" finished-at="2020-10-09T15:26:13 IST" duration-ms="4620" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -995,11 +1026,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signIn -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.SignIn@5db250b4]" started-at="2020-10-08T11:12:42 IST" name="afterTest" finished-at="2020-10-08T11:12:45 IST" duration-ms="2793" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.SignInTest@23f7d05d]" started-at="2020-10-09T15:26:13 IST" name="afterTest" finished-at="2020-10-09T15:26:16 IST" duration-ms="2490" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.SignIn@5db250b4]" started-at="2020-10-08T11:12:45 IST" name="beforeTest" finished-at="2020-10-08T11:12:54 IST" duration-ms="8943" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.SignInTest@23f7d05d]" started-at="2020-10-09T15:26:16 IST" name="beforeTest" finished-at="2020-10-09T15:26:35 IST" duration-ms="19169" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1010,7 +1041,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="signIn(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.SignIn@5db250b4]" started-at="2020-10-08T11:12:54 IST" name="signIn" data-provider="readData" finished-at="2020-10-08T11:12:56 IST" duration-ms="1644" status="PASS">
+        <test-method signature="signIn(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.SignInTest@23f7d05d]" started-at="2020-10-09T15:26:35 IST" name="signIn" data-provider="login" finished-at="2020-10-09T15:26:39 IST" duration-ms="4122" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1026,11 +1057,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signIn -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.SignIn@5db250b4]" started-at="2020-10-08T11:12:56 IST" name="afterTest" finished-at="2020-10-08T11:12:58 IST" duration-ms="2105" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.SignInTest@23f7d05d]" started-at="2020-10-09T15:26:39 IST" name="afterTest" finished-at="2020-10-09T15:26:41 IST" duration-ms="2320" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.SignIn@5db250b4]" started-at="2020-10-08T11:12:58 IST" name="beforeTest" finished-at="2020-10-08T11:13:05 IST" duration-ms="7073" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.SignInTest@23f7d05d]" started-at="2020-10-09T15:26:41 IST" name="beforeTest" finished-at="2020-10-09T15:26:52 IST" duration-ms="10342" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1041,7 +1072,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="signIn(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.SignIn@5db250b4]" started-at="2020-10-08T11:13:05 IST" name="signIn" data-provider="readData" finished-at="2020-10-08T11:13:07 IST" duration-ms="2003" status="PASS">
+        <test-method signature="signIn(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.SignInTest@23f7d05d]" started-at="2020-10-09T15:26:52 IST" name="signIn" data-provider="login" finished-at="2020-10-09T15:26:55 IST" duration-ms="3588" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1057,11 +1088,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signIn -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.SignIn@5db250b4]" started-at="2020-10-08T11:13:07 IST" name="afterTest" finished-at="2020-10-08T11:13:10 IST" duration-ms="2834" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.SignInTest@23f7d05d]" started-at="2020-10-09T15:26:55 IST" name="afterTest" finished-at="2020-10-09T15:26:58 IST" duration-ms="2929" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.SignIn@5db250b4]" started-at="2020-10-08T11:13:10 IST" name="beforeTest" finished-at="2020-10-08T11:13:18 IST" duration-ms="8125" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.SignInTest@23f7d05d]" started-at="2020-10-09T15:26:58 IST" name="beforeTest" finished-at="2020-10-09T15:27:09 IST" duration-ms="11415" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1072,7 +1103,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="signIn(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.SignIn@5db250b4]" started-at="2020-10-08T11:13:18 IST" name="signIn" data-provider="readData" finished-at="2020-10-08T11:13:20 IST" duration-ms="1772" status="PASS">
+        <test-method signature="signIn(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.SignInTest@23f7d05d]" started-at="2020-10-09T15:27:09 IST" name="signIn" data-provider="login" finished-at="2020-10-09T15:27:13 IST" duration-ms="3337" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1088,13 +1119,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signIn -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.SignIn@5db250b4]" started-at="2020-10-08T11:13:20 IST" name="afterTest" finished-at="2020-10-08T11:13:22 IST" duration-ms="2399" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.SignInTest@23f7d05d]" started-at="2020-10-09T15:27:13 IST" name="afterTest" finished-at="2020-10-09T15:27:15 IST" duration-ms="2262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.atmecs.demo_blazesite.tests.SignIn -->
-      <class name="com.atmecs.demo_blazesite.tests.AddProduct">
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.AddProduct@2fd6b6c7]" started-at="2020-10-08T11:10:41 IST" name="beforeTest" finished-at="2020-10-08T11:10:55 IST" duration-ms="14713" status="PASS">
+      </class> <!-- com.atmecs.demo_blazesite.tests.SignInTest -->
+      <class name="com.atmecs.demo_blazesite.tests.AddProductTest">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.AddProductTest@4c15e7fd]" started-at="2020-10-09T15:23:51 IST" name="beforeTest" finished-at="2020-10-09T15:24:02 IST" duration-ms="10681" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1105,15 +1136,172 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="addProduct()[pri:0, instance:com.atmecs.demo_blazesite.tests.AddProduct@2fd6b6c7]" started-at="2020-10-08T11:10:55 IST" name="addProduct" finished-at="2020-10-08T11:11:01 IST" duration-ms="5824" status="PASS">
+        <test-method signature="addProduct()[pri:0, instance:com.atmecs.demo_blazesite.tests.AddProductTest@4c15e7fd]" started-at="2020-10-09T15:24:02 IST" name="addProduct" finished-at="2020-10-09T15:24:09 IST" duration-ms="6626" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProduct -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.AddProduct@2fd6b6c7]" started-at="2020-10-08T11:11:01 IST" name="afterTest" finished-at="2020-10-08T11:11:04 IST" duration-ms="2732" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.AddProductTest@4c15e7fd]" started-at="2020-10-09T15:24:09 IST" name="afterTest" finished-at="2020-10-09T15:24:12 IST" duration-ms="3052" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.atmecs.demo_blazesite.tests.AddProduct -->
+      </class> <!-- com.atmecs.demo_blazesite.tests.AddProductTest -->
+      <class name="com.atmecs.demo_blazesite.tests.LoginTest">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.LoginTest@1e730495]" started-at="2020-10-09T15:27:15 IST" name="beforeTest" finished-at="2020-10-09T15:27:32 IST" duration-ms="16555" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.LoginTest@1e730495]" started-at="2020-10-09T15:27:32 IST" name="logIn" data-provider="login" finished-at="2020-10-09T15:27:32 IST" duration-ms="566" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dev@12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.LoginTest@1e730495]" started-at="2020-10-09T15:27:32 IST" name="afterTest" finished-at="2020-10-09T15:27:34 IST" duration-ms="2156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.LoginTest@1e730495]" started-at="2020-10-09T15:27:34 IST" name="beforeTest" finished-at="2020-10-09T15:27:49 IST" duration-ms="14833" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.LoginTest@1e730495]" started-at="2020-10-09T15:27:49 IST" name="logIn" data-provider="login" finished-at="2020-10-09T15:27:50 IST" duration-ms="568" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[swg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[swg@11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.LoginTest@1e730495]" started-at="2020-10-09T15:27:50 IST" name="afterTest" finished-at="2020-10-09T15:27:53 IST" duration-ms="2922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.LoginTest@1e730495]" started-at="2020-10-09T15:27:53 IST" name="beforeTest" finished-at="2020-10-09T15:28:03 IST" duration-ms="10330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.LoginTest@1e730495]" started-at="2020-10-09T15:28:03 IST" name="logIn" data-provider="login" finished-at="2020-10-09T15:28:04 IST" duration-ms="546" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dev@13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.LoginTest@1e730495]" started-at="2020-10-09T15:28:04 IST" name="afterTest" finished-at="2020-10-09T15:28:06 IST" duration-ms="2328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.LoginTest@1e730495]" started-at="2020-10-09T15:28:06 IST" name="beforeTest" finished-at="2020-10-09T15:28:14 IST" duration-ms="7749" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.LoginTest@1e730495]" started-at="2020-10-09T15:28:14 IST" name="logIn" data-provider="login" finished-at="2020-10-09T15:28:14 IST" duration-ms="554" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[swg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[swg@12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.LoginTest@1e730495]" started-at="2020-10-09T15:28:14 IST" name="afterTest" finished-at="2020-10-09T15:28:16 IST" duration-ms="1979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.LoginTest@1e730495]" started-at="2020-10-09T15:28:16 IST" name="beforeTest" finished-at="2020-10-09T15:28:29 IST" duration-ms="12861" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.demo_blazesite.tests.LoginTest@1e730495]" started-at="2020-10-09T15:28:29 IST" name="logIn" data-provider="login" finished-at="2020-10-09T15:28:30 IST" duration-ms="600" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dev@14]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.demo_blazesite.tests.LoginTest@1e730495]" started-at="2020-10-09T15:28:30 IST" name="afterTest" finished-at="2020-10-09T15:28:32 IST" duration-ms="1997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.atmecs.demo_blazesite.tests.LoginTest -->
     </test> <!-- test2 -->
   </suite> <!-- Suite -->
 </testng-results>

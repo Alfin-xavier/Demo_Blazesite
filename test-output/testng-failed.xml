@@ -1,39 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="com.atmecs.demo_blazesite.utilities.TestNGListeners"/>
-  </listeners>
-  <test thread-count="5" name="test(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.atmecs.demo_blazesite.tests.AddProduct">
-        <methods>
-          <include name="afterTest"/>
-          <include name="addProduct"/>
-          <include name="beforeTest"/>
-        </methods>
-      </class> <!-- com.atmecs.demo_blazesite.tests.AddProduct -->
-      <class name="com.atmecs.demo_blazesite.tests.SignIn">
-        <methods>
-          <include name="signIn"/>
-          <include name="afterTest"/>
-          <include name="beforeTest"/>
-        </methods>
-      </class> <!-- com.atmecs.demo_blazesite.tests.SignIn -->
-      <class name="com.atmecs.demo_blazesite.tests.ContactUs">
+      <class name="com.atmecs.demo_blazesite.tests.ContactUsTest">
         <methods>
           <include name="contactUs"/>
           <include name="afterTest"/>
           <include name="beforeTest"/>
         </methods>
-      </class> <!-- com.atmecs.demo_blazesite.tests.ContactUs -->
-      <class name="com.atmecs.demo_blazesite.tests.Login">
-        <methods>
-          <include name="afterTest"/>
-          <include name="logIn"/>
-          <include name="beforeTest"/>
-        </methods>
-      </class> <!-- com.atmecs.demo_blazesite.tests.Login -->
+      </class> <!-- com.atmecs.demo_blazesite.tests.ContactUsTest -->
     </classes>
-  </test> <!-- test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
