@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="281.185" tests="34" errors="0" skipped="0" failures="4">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="218.179" tests="34" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="14"/>
     <property name="webdriver.chrome.driver" value="./lib/chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\alfin.anthonyraj\AppData\Local\Temp\surefire12731226489093785987\surefirebooter8690940636433722672.jar C:\Users\alfin.anthonyraj\AppData\Local\Temp\surefire12731226489093785987 2020-10-09T15-23-50_632-jvmRun1 surefire7332868402162997935tmp surefire_014149739353142604775tmp"/>
+    <property name="sun.java.command" value="C:\Users\alfin.anthonyraj\AppData\Local\Temp\surefire8070773899184260028\surefirebooter10759077074278441495.jar C:\Users\alfin.anthonyraj\AppData\Local\Temp\surefire8070773899184260028 2020-10-12T14-58-49_290-jvmRun1 surefire9999003897929136112tmp surefire_016841213852606300738tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\alfin.anthonyraj\Automation_Selenium\demo_blazesite\target\test-classes;C:\Users\alfin.anthonyraj\Automation_Selenium\demo_blazesite\target\classes;C:\Users\alfin.anthonyraj\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\alfin.anthonyraj\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\alfin.anthonyraj\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\alfin.anthonyraj\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\alfin.anthonyraj\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\alfin.anthonyraj\AppData\Local\Temp\surefire12731226489093785987\surefirebooter8690940636433722672.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\alfin.anthonyraj\AppData\Local\Temp\surefire8070773899184260028\surefirebooter10759077074278441495.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="14.0.1+7"/>
@@ -57,49 +57,185 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="58.0"/>
   </properties>
-  <testcase name="addProduct" classname="com.atmecs.demo_blazesite.tests.AddProductTest" time="3.422">
+  <testcase name="addProduct" classname="com.atmecs.demo_blazesite.tests.AddProductTest" time="3.79">
     <system-out><![CDATA[addProduct Started!!
-Selecting the Product
-Adding Product to Cart
 addProduct Started!!
-Switching to alert window
-Clicking Cart linktext to view products
-]]></system-out>
-    <system-err><![CDATA[1602237232294	geckodriver	INFO	Listening on 127.0.0.1:5504
-Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 43427
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-1602237232927	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofile7rt5DQ"
-Oct 09, 2020 3:23:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1602237239326	Marionette	INFO	Listening on port 58467
-1602237239779	Marionette	WARN	TLS certificate errors will be ignored for this session
-Oct 09, 2020 3:23:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="addProduct" classname="com.atmecs.demo_blazesite.tests.AddProductTest" time="6.626">
-    <system-out><![CDATA[addProduct Passed!!
+Selecting the Product
 Selecting the Product
 Adding Product to Cart
+Adding Product to Cart
+Switching to alert window
 Switching to alert window
 Clicking Cart linktext to view products
 ]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 38910
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+1602494931718	geckodriver	INFO	Listening on 127.0.0.1:39059
+ChromeDriver was started successfully.
+1602494932530	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofileNJG9nb"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+Oct 12, 2020 2:58:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602494936756	Marionette	INFO	Listening on port 62950
+1602494937363	Marionette	WARN	TLS certificate errors will be ignored for this session
+Oct 12, 2020 2:58:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
   </testcase>
-  <testcase name="contactUs[abc@gmail.com, abc, Good One](1)" classname="com.atmecs.demo_blazesite.tests.ContactUsTest" time="0.883">
+  <testcase name="addProduct" classname="com.atmecs.demo_blazesite.tests.AddProductTest" time="3.818">
+    <system-out><![CDATA[addProduct Passed!!
+Clicking Cart linktext to view products
+]]></system-out>
+  </testcase>
+  <testcase name="contactUs[abc@gmail.com, abc, Good One](1)" classname="com.atmecs.demo_blazesite.tests.ContactUsTest" time="0.592">
     <system-out><![CDATA[addProduct Passed!!
 contactUs Started!!
 Clicking contactUs linktext
+contactUs Started!!
+Providing Mail_Id
+Providing Username
+Clicking contactUs linktext
+Providing Message
+Clicking on the button
+Switching to alert window
+]]></system-out>
+    <system-err><![CDATA[1602494947220	Marionette	INFO	Stopped listening on port 62950
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 26886
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+1602494950712	geckodriver	INFO	Listening on 127.0.0.1:23000
+1602494951055	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofilexaTDUY"
+Oct 12, 2020 2:59:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602494956067	Marionette	INFO	Listening on port 63021
+1602494956663	Marionette	WARN	TLS certificate errors will be ignored for this session
+Oct 12, 2020 2:59:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="contactUs[abc@gmail.com, abc, Good One](1)" classname="com.atmecs.demo_blazesite.tests.ContactUsTest" time="1.197">
+    <system-out><![CDATA[contactUs Passed!!
 Providing Mail_Id
 Providing Username
 Providing Message
 Clicking on the button
 Switching to alert window
 ]]></system-out>
-    <system-err><![CDATA[1602237249231	Marionette	INFO	Stopped listening on port 58467
+  </testcase>
+  <testcase name="contactUs[def@gmail.com, abc, Good One](2)" classname="com.atmecs.demo_blazesite.tests.ContactUsTest" time="0.91">
+    <system-out><![CDATA[contactUs Passed!!
+contactUs Started!!
+Clicking contactUs linktext
+Providing Mail_Id
+Providing Username
+Providing Message
+Clicking on the button
+Switching to alert window
+]]></system-out>
+    <system-err><![CDATA[1602494960305	Marionette	INFO	Stopped listening on port 63021
+Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 1851
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1602494964383	geckodriver	INFO	Listening on 127.0.0.1:32942
+1602494964721	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofileAPpspj"
+Oct 12, 2020 2:59:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602494968030	Marionette	INFO	Listening on port 63089
+1602494968360	Marionette	WARN	TLS certificate errors will be ignored for this session
+Oct 12, 2020 2:59:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="contactUs[def@gmail.com, abc, Good One](2)" classname="com.atmecs.demo_blazesite.tests.ContactUsTest" time="0.631">
+    <system-out><![CDATA[contactUs Passed!!
+contactUs Started!!
+Clicking contactUs linktext
+Providing Mail_Id
+Providing Username
+Providing Message
+Clicking on the button
+Switching to alert window
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 27018
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="contactUs[abc@gmail.com, abc, Good One](3)" classname="com.atmecs.demo_blazesite.tests.ContactUsTest" time="0.631">
+    <system-out><![CDATA[contactUs Passed!!
+contactUs Started!!
+Clicking contactUs linktext
+Providing Mail_Id
+Providing Username
+Providing Message
+Clicking on the button
+Switching to alert window
+]]></system-out>
+    <system-err><![CDATA[1602494971825	Marionette	INFO	Stopped listening on port 63089
+JavaScript error: chrome://marionette/content/proxy.js, line 287: NS_ERROR_NOT_INITIALIZED: 
+[Parent 26776, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Oct 12, 2020 2:59:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1602494976540	geckodriver	INFO	Listening on 127.0.0.1:27930
+1602494977018	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofile1Ha4i8"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602494980319	Marionette	INFO	Listening on port 63148
+1602494980661	Marionette	WARN	TLS certificate errors will be ignored for this session
+Oct 12, 2020 2:59:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="contactUs[abc@gmail.com, abc, Good One](3)" classname="com.atmecs.demo_blazesite.tests.ContactUsTest" time="0.6">
+    <system-out><![CDATA[contactUs Passed!!
+contactUs Started!!
+Clicking contactUs linktext
+Providing Mail_Id
+Providing Username
+Providing Message
+Clicking on the button
+Switching to alert window
+]]></system-out>
+  </testcase>
+  <testcase name="contactUs[def@gmail.com, abc, Good One](4)" classname="com.atmecs.demo_blazesite.tests.ContactUsTest" time="0.736">
+    <system-out><![CDATA[contactUs Passed!!
+contactUs Started!!
+Clicking contactUs linktext
+Providing Mail_Id
+Providing Username
+Providing Message
+Clicking on the button
+Switching to alert window
+]]></system-out>
+    <system-err><![CDATA[1602494983469	Marionette	INFO	Stopped listening on port 63148
+JavaScript error: chrome://marionette/content/proxy.js, line 287: NS_ERROR_NOT_INITIALIZED: 
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
@@ -109,143 +245,23 @@ Switching to alert window
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
-Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 38043
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-1602237252492	geckodriver	INFO	Listening on 127.0.0.1:12913
-1602237253020	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofilei70zlH"
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-Oct 09, 2020 3:24:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1602237256543	Marionette	INFO	Listening on port 58543
-1602237256650	Marionette	WARN	TLS certificate errors will be ignored for this session
-Oct 09, 2020 3:24:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="contactUs[abc@gmail.com, abc, Good One](1)" classname="com.atmecs.demo_blazesite.tests.ContactUsTest" time="0.641">
-    <system-out><![CDATA[contactUs Passed!!
-contactUs Started!!
-Clicking contactUs linktext
-Providing Mail_Id
-Providing Username
-Providing Message
-Clicking on the button
-Switching to alert window
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 39490
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-]]></system-err>
-  </testcase>
-  <testcase name="contactUs[def@gmail.com, abc, Good One](2)" classname="com.atmecs.demo_blazesite.tests.ContactUsTest" time="0.835">
-    <system-out><![CDATA[contactUs Passed!!
-contactUs Started!!
-Clicking contactUs linktext
-Providing Mail_Id
-Providing Username
-Providing Message
-Clicking on the button
-Switching to alert window
-]]></system-out>
-    <system-err><![CDATA[1602237262550	Marionette	INFO	Stopped listening on port 58543
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-JavaScript error: chrome://marionette/content/proxy.js, line 287: NS_ERROR_NOT_INITIALIZED: 
-Oct 09, 2020 3:24:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
-1602237265490	geckodriver	INFO	Listening on 127.0.0.1:7343
-1602237265572	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofilePTmp2x"
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-]]></system-err>
-  </testcase>
-  <testcase name="contactUs[def@gmail.com, abc, Good One](2)" classname="com.atmecs.demo_blazesite.tests.ContactUsTest" time="0.669">
-    <system-out><![CDATA[contactUs Passed!!
-contactUs Started!!
-Clicking contactUs linktext
-Providing Mail_Id
-Providing Username
-Providing Message
-Clicking on the button
-Switching to alert window
-]]></system-out>
-    <system-err><![CDATA[1602237269428	Marionette	INFO	Listening on port 58606
-1602237270009	Marionette	WARN	TLS certificate errors will be ignored for this session
-Oct 09, 2020 3:24:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 6719
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-JavaScript error: https://www.demoblaze.com/node_modules/bootstrap/dist/js/bootstrap.min.js, line 6: Error: Modal is transitioning
-]]></system-err>
-  </testcase>
-  <testcase name="contactUs[abc@gmail.com, abc, Good One](3)" classname="com.atmecs.demo_blazesite.tests.ContactUsTest" time="0.655">
-    <system-out><![CDATA[contactUs Passed!!
-contactUs Started!!
-Clicking contactUs linktext
-Providing Mail_Id
-Providing Username
-Providing Message
-Clicking on the button
-Switching to alert window
-]]></system-out>
-    <system-err><![CDATA[1602237275244	Marionette	INFO	Stopped listening on port 58606
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-JavaScript error: chrome://marionette/content/proxy.js, line 287: NS_ERROR_NOT_INITIALIZED: 
-Oct 09, 2020 3:24:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
-1602237278443	geckodriver	INFO	Listening on 127.0.0.1:23043
-1602237278931	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofilekEIM2W"
-]]></system-err>
-  </testcase>
-  <testcase name="contactUs[abc@gmail.com, abc, Good One](3)" classname="com.atmecs.demo_blazesite.tests.ContactUsTest" time="0.529">
-    <system-out><![CDATA[contactUs Passed!!
-contactUs Started!!
-Clicking contactUs linktext
-Providing Mail_Id
-Providing Username
-Providing Message
-Clicking on the button
-Switching to alert window
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 35717
+1602494986289	geckodriver	INFO	Listening on 127.0.0.1:24869
+1602494986683	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofileNfCMJo"
+Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 29418
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1602237283356	Marionette	INFO	Listening on port 58672
-1602237283785	Marionette	WARN	TLS certificate errors will be ignored for this session
-Oct 09, 2020 3:24:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1602494989403	Marionette	INFO	Listening on port 63200
+Oct 12, 2020 2:59:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Oct 09, 2020 3:24:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1602494990459	Marionette	WARN	TLS certificate errors will be ignored for this session
+Oct 12, 2020 2:59:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-JavaScript error: https://www.demoblaze.com/node_modules/bootstrap/dist/js/bootstrap.min.js, line 6: Error: Modal is transitioning
 ]]></system-err>
   </testcase>
-  <testcase name="contactUs[def@gmail.com, abc, Good One](4)" classname="com.atmecs.demo_blazesite.tests.ContactUsTest" time="0.516">
+  <testcase name="contactUs[def@gmail.com, abc, Good One](4)" classname="com.atmecs.demo_blazesite.tests.ContactUsTest" time="0.551">
     <system-out><![CDATA[contactUs Passed!!
 contactUs Started!!
 Clicking contactUs linktext
@@ -255,20 +271,10 @@ Providing Message
 Clicking on the button
 Switching to alert window
 ]]></system-out>
-    <system-err><![CDATA[1602237286977	Marionette	INFO	Stopped listening on port 58672
-JavaScript error: chrome://marionette/content/proxy.js, line 287: NS_ERROR_NOT_INITIALIZED: 
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
+    <system-err><![CDATA[1602494994320	Marionette	INFO	Stopped listening on port 63200
 ]]></system-err>
   </testcase>
-  <testcase name="contactUs[def@gmail.com, abc, Good One](4)" classname="com.atmecs.demo_blazesite.tests.ContactUsTest" time="0.685">
+  <testcase name="contactUs[abc@gmail.com, abc, Good One](5)" classname="com.atmecs.demo_blazesite.tests.ContactUsTest" time="0.702">
     <system-out><![CDATA[contactUs Passed!!
 contactUs Started!!
 Clicking contactUs linktext
@@ -284,23 +290,23 @@ Switching to alert window
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
-1602237290269	geckodriver	INFO	Listening on 127.0.0.1:21773
-1602237290737	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofilexgl3oy"
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 45725
+Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 47273
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-1602237293952	Marionette	INFO	Listening on port 58737
-1602237294367	Marionette	WARN	TLS certificate errors will be ignored for this session
-Oct 09, 2020 3:24:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1602494998851	geckodriver	INFO	Listening on 127.0.0.1:18627
+1602494999367	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofileF4j2JY"
+Oct 12, 2020 3:00:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Oct 09, 2020 3:24:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602495003821	Marionette	INFO	Listening on port 63270
+1602495004128	Marionette	WARN	TLS certificate errors will be ignored for this session
+Oct 12, 2020 3:00:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="contactUs[abc@gmail.com, abc, Good One](5)" classname="com.atmecs.demo_blazesite.tests.ContactUsTest" time="0.758">
+  <testcase name="contactUs[abc@gmail.com, abc, Good One](5)" classname="com.atmecs.demo_blazesite.tests.ContactUsTest" time="0.764">
     <system-out><![CDATA[contactUs Passed!!
 contactUs Started!!
 Clicking contactUs linktext
@@ -310,289 +316,193 @@ Providing Message
 Clicking on the button
 Switching to alert window
 ]]></system-out>
-    <system-err><![CDATA[1602237300541	Marionette	INFO	Stopped listening on port 58737
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 8823
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+JavaScript error: https://www.demoblaze.com/node_modules/bootstrap/dist/js/bootstrap.min.js, line 6: Error: Modal is transitioning
+]]></system-err>
+  </testcase>
+  <testcase name="contactUs[def@gmail.com, abc, Good One](6)" classname="com.atmecs.demo_blazesite.tests.ContactUsTest" time="0.96">
+    <system-out><![CDATA[contactUs Passed!!
+contactUs Started!!
+Clicking contactUs linktext
+Providing Mail_Id
+Providing Username
+Providing Message
+Clicking on the button
+Switching to alert window
+]]></system-out>
+    <system-err><![CDATA[1602495007614	Marionette	INFO	Stopped listening on port 63270
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Oct 12, 2020 3:00:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1602495011623	geckodriver	INFO	Listening on 127.0.0.1:16356
+1602495012082	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofileDFyH2Q"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+]]></system-err>
+  </testcase>
+  <testcase name="contactUs[def@gmail.com, abc, Good One](6)" classname="com.atmecs.demo_blazesite.tests.ContactUsTest" time="0.899">
+    <system-out><![CDATA[contactUs Passed!!
+contactUs Started!!
+Clicking contactUs linktext
+Providing Mail_Id
+Providing Username
+Providing Message
+Clicking on the button
+Switching to alert window
+]]></system-out>
+    <system-err><![CDATA[1602495017011	Marionette	INFO	Listening on port 63342
+1602495017337	Marionette	WARN	TLS certificate errors will be ignored for this session
+Oct 12, 2020 3:00:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 29358
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="signIn[dev, Dev@12](1)" classname="com.atmecs.demo_blazesite.tests.SignInTest" time="1.606">
+    <system-out><![CDATA[contactUs Passed!!
+signIn Started!!
+Clicking on Signin linktext
+Providing Username
+Providing Username
+Clicking on the Signin button
+Switching to alert window
+]]></system-out>
+    <system-err><![CDATA[1602495021297	Marionette	INFO	Stopped listening on port 63342
+console.warn: services.settings: main/whats-new-panel sync interrupted by shutdown
+Oct 12, 2020 3:00:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1602495024670	geckodriver	INFO	Listening on 127.0.0.1:11308
+1602495025146	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofileq1lT9j"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602495028445	Marionette	INFO	Listening on port 63415
+]]></system-err>
+  </testcase>
+  <testcase name="signIn[dev, Dev@12](1)" classname="com.atmecs.demo_blazesite.tests.SignInTest" time="1.155">
+    <system-out><![CDATA[signIn Passed!!
+signIn Started!!
+Clicking on Signin linktext
+Providing Username
+Providing Username
+Clicking on the Signin button
+Switching to alert window
+]]></system-out>
+    <system-err><![CDATA[1602495028987	Marionette	WARN	TLS certificate errors will be ignored for this session
+Oct 12, 2020 3:00:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 34003
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="signIn[swg, swg@11](2)" classname="com.atmecs.demo_blazesite.tests.SignInTest" time="1.992">
+    <system-out><![CDATA[signIn Passed!!
+signIn Started!!
+Clicking on Signin linktext
+Providing Username
+Providing Username
+Clicking on the Signin button
+Switching to alert window
+]]></system-out>
+    <system-err><![CDATA[1602495034505	Marionette	INFO	Stopped listening on port 63415
+Oct 12, 2020 3:00:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1602495037950	geckodriver	INFO	Listening on 127.0.0.1:5501
+1602495038407	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofile2vpjKV"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602495041880	Marionette	INFO	Listening on port 63491
+1602495042044	Marionette	WARN	TLS certificate errors will be ignored for this session
+Oct 12, 2020 3:00:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="signIn[swg, swg@11](2)" classname="com.atmecs.demo_blazesite.tests.SignInTest" time="2.252">
+    <system-out><![CDATA[signIn Passed!!
+signIn Started!!
+Clicking on Signin linktext
+Providing Username
+Providing Username
+Clicking on the Signin button
+Switching to alert window
+]]></system-out>
+  </testcase>
+  <testcase name="signIn[dev, Dev@13](3)" classname="com.atmecs.demo_blazesite.tests.SignInTest" time="0.217">
+    <system-out><![CDATA[signIn Passed!!
+signIn Started!!
+Clicking on Signin linktext
+Providing Username
+Providing Username
+Clicking on the Signin button
+signIn Started!!
+Switching to alert window
+]]></system-out>
+    <system-err><![CDATA[1602495046850	Marionette	INFO	Stopped listening on port 63491
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
 JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
-1602237303236	geckodriver	INFO	Listening on 127.0.0.1:22376
-1602237303696	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofileGC133e"
-]]></system-err>
-  </testcase>
-  <testcase name="contactUs[abc@gmail.com, abc, Good One](5)" classname="com.atmecs.demo_blazesite.tests.ContactUsTest" time="0.748">
-    <system-out><![CDATA[contactUs Passed!!
-contactUs Started!!
-Clicking contactUs linktext
-Providing Mail_Id
-Providing Username
-Providing Message
-Clicking on the button
-Switching to alert window
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 14281
+Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 15268
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-Oct 09, 2020 3:25:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-1602237308596	Marionette	INFO	Listening on port 58811
-1602237308949	Marionette	WARN	TLS certificate errors will be ignored for this session
-Oct 09, 2020 3:25:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="contactUs[def@gmail.com, abc, Good One](6)" classname="com.atmecs.demo_blazesite.tests.ContactUsTest" time="0.675">
-    <system-out><![CDATA[contactUs Passed!!
-contactUs Started!!
-Clicking contactUs linktext
-Providing Mail_Id
-Providing Username
-Providing Message
-Clicking on the button
-Switching to alert window
-]]></system-out>
-    <system-err><![CDATA[1602237312898	Marionette	INFO	Stopped listening on port 58811
-JavaScript error: chrome://marionette/content/proxy.js, line 287: NS_ERROR_NOT_INITIALIZED: 
-]]></system-err>
-  </testcase>
-  <testcase name="contactUs[def@gmail.com, abc, Good One](6)" classname="com.atmecs.demo_blazesite.tests.ContactUsTest" time="0.53">
-    <system-out><![CDATA[contactUs Passed!!
-contactUs Started!!
-Clicking contactUs linktext
-Providing Mail_Id
-Providing Username
-Providing Message
-Clicking on the button
-Switching to alert window
-]]></system-out>
-    <system-err><![CDATA[
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
-1602237317470	geckodriver	INFO	Listening on 127.0.0.1:12300
-1602237318140	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofileJI9f1O"
-Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 2984
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-Oct 09, 2020 3:25:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-1602237322522	Marionette	INFO	Listening on port 58892
-1602237322959	Marionette	WARN	TLS certificate errors will be ignored for this session
-Oct 09, 2020 3:25:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-JavaScript error: https://www.demoblaze.com/node_modules/bootstrap/dist/js/bootstrap.min.js, line 6: Error: Modal is transitioning
-]]></system-err>
-  </testcase>
-  <testcase name="signIn[dev, Dev@12](1)" classname="com.atmecs.demo_blazesite.tests.SignInTest" time="3.028">
-    <system-out><![CDATA[contactUs Passed!!
-signIn Started!!
-Clicking on Signin linktext
-Providing Username
-Providing Username
-Clicking on the Signin button
-Switching to alert window
-]]></system-out>
-    <system-err><![CDATA[1602237326442	Marionette	INFO	Stopped listening on port 58892
-JavaScript error: chrome://marionette/content/proxy.js, line 287: NS_ERROR_NOT_INITIALIZED: 
-console.error: services.settings: 
-  main/partitioning-exempt-urls Signature failed  TypeError: NetworkError when attempting to fetch resource.
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
-1602237329214	geckodriver	INFO	Listening on 127.0.0.1:43885
-1602237329681	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofilenWqMsL"
+1602495049777	geckodriver	INFO	Listening on 127.0.0.1:13677
+1602495050286	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofile81KxcR"
+Oct 12, 2020 3:00:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602495052857	Marionette	INFO	Listening on port 63552
+1602495052979	Marionette	WARN	TLS certificate errors will be ignored for this session
+Oct 12, 2020 3:00:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="signIn[dev, Dev@12](1)" classname="com.atmecs.demo_blazesite.tests.SignInTest" time="5.156">
-    <failure message="Expected condition failed: waiting for alert to be present (tried for 5 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 19216, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: e059dd8b-f8d9-4eac-9db1-bc29eeded628" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for alert to be present (tried for 5 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 19216, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e059dd8b-f8d9-4eac-9db1-bc29eeded628
-	at com.atmecs.demo_blazesite.tests.SignInTest.signIn(SignInTest.java:17)
-]]></failure>
+  <testcase name="signIn[dev, Dev@13](3)" classname="com.atmecs.demo_blazesite.tests.SignInTest" time="1.778">
     <system-out><![CDATA[signIn Passed!!
-signIn Started!!
-Clicking on Signin linktext
-Providing Username
-Providing Username
-signIn Started!!
-Clicking on the Signin button
-Clicking on Signin linktext
-Providing Username
-Providing Username
-Clicking on the Signin button
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 20910
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-Oct 09, 2020 3:25:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-1602237334473	Marionette	INFO	Listening on port 58943
-1602237334930	Marionette	WARN	TLS certificate errors will be ignored for this session
-Oct 09, 2020 3:25:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="signIn[swg, swg@11](2)" classname="com.atmecs.demo_blazesite.tests.SignInTest" time="5.65">
-    <failure message="Expected condition failed: waiting for alert to be present (tried for 5 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:58950}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: bb9f434a0cd47e6e509c234be7fc858f" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for alert to be present (tried for 5 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:58950}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: bb9f434a0cd47e6e509c234be7fc858f
-	at com.atmecs.demo_blazesite.tests.SignInTest.signIn(SignInTest.java:17)
-]]></failure>
-    <system-out><![CDATA[signIn Failed!!
-]]></system-out>
-  </testcase>
-  <testcase name="signIn[swg, swg@11](2)" classname="com.atmecs.demo_blazesite.tests.SignInTest" time="4.623">
-    <system-out><![CDATA[signIn Failed!!
-signIn Started!!
 Clicking on Signin linktext
 Providing Username
 Providing Username
 Clicking on the Signin button
 Switching to alert window
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 3864
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 6546
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 09, 2020 3:26:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="signIn[dev, Dev@13](3)" classname="com.atmecs.demo_blazesite.tests.SignInTest" time="5.487">
-    <failure message="Expected condition failed: waiting for alert to be present (tried for 5 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:59006}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 495aec3d4723f3acc6a6bf38548fb956" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for alert to be present (tried for 5 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:59006}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 495aec3d4723f3acc6a6bf38548fb956
-	at com.atmecs.demo_blazesite.tests.SignInTest.signIn(SignInTest.java:17)
-]]></failure>
-    <system-out><![CDATA[signIn Failed!!
-signIn Started!!
-Clicking on Signin linktext
-Providing Username
-Providing Username
-Clicking on the Signin button
-]]></system-out>
-    <system-err><![CDATA[1602237346274	Marionette	INFO	Stopped listening on port 58943
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
-Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 41776
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-1602237349464	geckodriver	INFO	Listening on 127.0.0.1:38277
-1602237349955	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofilePOQPbD"
-Oct 09, 2020 3:25:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1602237354625	Marionette	INFO	Listening on port 59009
-1602237354713	Marionette	WARN	TLS certificate errors will be ignored for this session
-Oct 09, 2020 3:25:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 689))
-console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
-]]></system-err>
-  </testcase>
-  <testcase name="signIn[dev, Dev@13](3)" classname="com.atmecs.demo_blazesite.tests.SignInTest" time="4.124">
-    <system-out><![CDATA[signIn Failed!!
-signIn Started!!
-Clicking on Signin linktext
-Providing Username
-Providing Username
-Clicking on the Signin button
-Switching to alert window
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 35846
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Oct 09, 2020 3:26:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="signIn[swg, swg@12](4)" classname="com.atmecs.demo_blazesite.tests.SignInTest" time="5.534">
-    <failure message="Expected condition failed: waiting for alert to be present (tried for 5 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:59072}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 343747ce38659fe2200a70bdc5bcba59" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for alert to be present (tried for 5 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:59072}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 343747ce38659fe2200a70bdc5bcba59
-	at com.atmecs.demo_blazesite.tests.SignInTest.signIn(SignInTest.java:17)
-]]></failure>
-    <system-out><![CDATA[signIn Passed!!
-signIn Started!!
-Clicking on Signin linktext
-Providing Username
-Providing Username
-Clicking on the Signin button
-]]></system-out>
-    <system-err><![CDATA[1602237373605	Marionette	INFO	Stopped listening on port 59009
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
-1602237376169	geckodriver	INFO	Listening on 127.0.0.1:1737
-1602237376633	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofilelT2ktM"
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1602237383660	Marionette	INFO	Listening on port 59090
-1602237384206	Marionette	WARN	TLS certificate errors will be ignored for this session
-Oct 09, 2020 3:26:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 689))
-console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
-]]></system-err>
-  </testcase>
-  <testcase name="signIn[swg, swg@12](4)" classname="com.atmecs.demo_blazesite.tests.SignInTest" time="3.586">
+  <testcase name="signIn[swg, swg@12](4)" classname="com.atmecs.demo_blazesite.tests.SignInTest" time="1.49">
     <system-out><![CDATA[signIn Passed!!
 signIn Started!!
 Clicking on Signin linktext
@@ -601,19 +511,26 @@ Providing Username
 Clicking on the Signin button
 Switching to alert window
 ]]></system-out>
-    <system-err><![CDATA[1602237406075	Marionette	INFO	Listening on port 59166
-1602237406391	Marionette	WARN	TLS certificate errors will be ignored for this session
-Oct 09, 2020 3:26:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err><![CDATA[1602495058182	Marionette	INFO	Stopped listening on port 63552
+Oct 12, 2020 3:01:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 25866
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Oct 09, 2020 3:26:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1602495061730	geckodriver	INFO	Listening on 127.0.0.1:42581
+1602495062227	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofilectCRAz"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602495065125	Marionette	INFO	Listening on port 63618
+1602495065801	Marionette	WARN	TLS certificate errors will be ignored for this session
+Oct 12, 2020 3:01:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="signIn[dev, Dev@14](5)" classname="com.atmecs.demo_blazesite.tests.SignInTest" time="1.641">
+  <testcase name="signIn[swg, swg@12](4)" classname="com.atmecs.demo_blazesite.tests.SignInTest" time="1.672">
     <system-out><![CDATA[signIn Passed!!
 signIn Started!!
 Clicking on Signin linktext
@@ -622,21 +539,14 @@ Providing Username
 Clicking on the Signin button
 Switching to alert window
 ]]></system-out>
-    <system-err><![CDATA[1602237399385	Marionette	INFO	Stopped listening on port 59090
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
-1602237401802	geckodriver	INFO	Listening on 127.0.0.1:11264
-1602237402250	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofilen4YcGd"
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 38877
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
 ]]></system-err>
   </testcase>
-  <testcase name="signIn[dev, Dev@14](5)" classname="com.atmecs.demo_blazesite.tests.SignInTest" time="3.334">
-    <system-out><![CDATA[logIn Passed!!
+  <testcase name="signIn[dev, Dev@14](5)" classname="com.atmecs.demo_blazesite.tests.SignInTest" time="1.508">
+    <system-out><![CDATA[signIn Passed!!
 signIn Started!!
 Clicking on Signin linktext
 Providing Username
@@ -644,21 +554,43 @@ Providing Username
 Clicking on the Signin button
 Switching to alert window
 ]]></system-out>
-    <system-err><![CDATA[JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1602237424545	Marionette	INFO	Listening on port 59231
-1602237424880	Marionette	WARN	TLS certificate errors will be ignored for this session
-Oct 09, 2020 3:27:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err><![CDATA[1602495070410	Marionette	INFO	Stopped listening on port 63618
+Oct 12, 2020 3:01:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 47044
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1602495073357	geckodriver	INFO	Listening on 127.0.0.1:9581
+1602495073821	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofilePSeKVS"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+]]></system-err>
+  </testcase>
+  <testcase name="signIn[dev, Dev@14](5)" classname="com.atmecs.demo_blazesite.tests.SignInTest" time="1.814">
+    <system-out><![CDATA[signIn Passed!!
+signIn Started!!
+Clicking on Signin linktext
+Providing Username
+Providing Username
+Clicking on the Signin button
+Switching to alert window
+]]></system-out>
+    <system-err><![CDATA[1602495078507	Marionette	INFO	Listening on port 63684
+1602495078566	Marionette	WARN	TLS certificate errors will be ignored for this session
+Oct 12, 2020 3:01:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 40560
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 09, 2020 3:27:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Oct 12, 2020 3:01:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="logIn[dev, Dev@12](1)" classname="com.atmecs.demo_blazesite.tests.LoginTest" time="0.537">
+  <testcase name="logIn[dev, Dev@12](1)" classname="com.atmecs.demo_blazesite.tests.LoginTest" time="0.455">
     <system-out><![CDATA[signIn Passed!!
 logIn Started!!
 Clicking on login linktext
@@ -666,18 +598,19 @@ Providing Username
 Providing Password
 Clicking on login button
 ]]></system-out>
-    <system-err><![CDATA[1602237415637	Marionette	INFO	Stopped listening on port 59166
+    <system-err><![CDATA[1602495085807	Marionette	INFO	Stopped listening on port 63684
+[Parent 9408, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
-1602237418666	geckodriver	INFO	Listening on 127.0.0.1:36592
-1602237419124	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofileY4jPWS"
+1602495088636	geckodriver	INFO	Listening on 127.0.0.1:9424
+1602495089089	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofile94Xevr"
 ]]></system-err>
   </testcase>
-  <testcase name="logIn[dev, Dev@12](1)" classname="com.atmecs.demo_blazesite.tests.LoginTest" time="0.562">
+  <testcase name="logIn[dev, Dev@12](1)" classname="com.atmecs.demo_blazesite.tests.LoginTest" time="0.654">
     <system-out><![CDATA[logIn Passed!!
 logIn Started!!
 Clicking on login linktext
@@ -685,133 +618,35 @@ Providing Username
 Providing Password
 Clicking on login button
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 18929
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 689))
-console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
-Oct 09, 2020 3:27:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="logIn[swg, swg@11](2)" classname="com.atmecs.demo_blazesite.tests.LoginTest" time="0.423">
-    <system-out><![CDATA[signIn Passed!!
-logIn Started!!
-Clicking on login linktext
-Providing Username
-Providing Password
-Clicking on login button
-]]></system-out>
-    <system-err><![CDATA[1602237433317	Marionette	INFO	Stopped listening on port 59231
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
-1602237435700	geckodriver	INFO	Listening on 127.0.0.1:28768
-1602237436144	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofilepCYIq0"
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1602237440410	Marionette	INFO	Listening on port 59302
-1602237440885	Marionette	WARN	TLS certificate errors will be ignored for this session
-Oct 09, 2020 3:27:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="logIn[swg, swg@11](2)" classname="com.atmecs.demo_blazesite.tests.LoginTest" time="0.563">
-    <system-out><![CDATA[logIn Passed!!
-logIn Started!!
-Clicking on login linktext
-Providing Username
-Providing Password
-Clicking on login button
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 43886
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 32323
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1602237460430	Marionette	INFO	Listening on port 59362
-1602237460707	Marionette	WARN	TLS certificate errors will be ignored for this session
-Oct 09, 2020 3:27:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Oct 12, 2020 3:01:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Oct 09, 2020 3:27:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="logIn[dev, Dev@13](3)" classname="com.atmecs.demo_blazesite.tests.LoginTest" time="0.521">
-    <system-out><![CDATA[logIn Passed!!
-logIn Started!!
-Clicking on login linktext
-Providing Username
-Providing Password
-Clicking on login button
-]]></system-out>
-    <system-err><![CDATA[1602237452730	Marionette	INFO	Stopped listening on port 59302
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
-1602237454969	geckodriver	INFO	Listening on 127.0.0.1:29214
-1602237455439	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofileMuU64V"
-]]></system-err>
-  </testcase>
-  <testcase name="logIn[dev, Dev@13](3)" classname="com.atmecs.demo_blazesite.tests.LoginTest" time="0.546">
-    <system-out><![CDATA[logIn Passed!!
-logIn Started!!
-Clicking on login linktext
-Providing Username
-Providing Password
-Clicking on login button
-]]></system-out>
-  </testcase>
-  <testcase name="logIn[swg, swg@12](4)" classname="com.atmecs.demo_blazesite.tests.LoginTest" time="0.531">
-    <system-out><![CDATA[logIn Passed!!
-logIn Started!!
-Clicking on login linktext
-Providing Username
-Providing Password
-Clicking on login button
-]]></system-out>
-    <system-err><![CDATA[1602237470284	Marionette	INFO	Stopped listening on port 59362
-console.error: services.settings: 
-  main/partitioning-exempt-urls Signature failed  TypeError: NetworkError when attempting to fetch resource.
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x5A0011,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
-
-]]></system-err>
-  </testcase>
-  <testcase name="logIn[swg, swg@12](4)" classname="com.atmecs.demo_blazesite.tests.LoginTest" time="0.549">
-    <system-out><![CDATA[logIn Passed!!
-logIn Started!!
-Clicking on login linktext
-Providing Username
-Providing Password
-Clicking on login button
-]]></system-out>
-    <system-err><![CDATA[1602237484083	Marionette	INFO	Stopped listening on port 59421
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
-1602237486485	geckodriver	INFO	Listening on 127.0.0.1:19612
-1602237486995	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofileE9uEgB"
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1602237489419	Marionette	INFO	Listening on port 59478
-1602237490351	Marionette	WARN	TLS certificate errors will be ignored for this session
-Oct 09, 2020 3:28:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1602495093944	Marionette	INFO	Listening on port 63753
+1602495093984	Marionette	WARN	TLS certificate errors will be ignored for this session
+Oct 12, 2020 3:01:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="logIn[dev, Dev@14](5)" classname="com.atmecs.demo_blazesite.tests.LoginTest" time="0.382">
+  <testcase name="logIn[swg, swg@11](2)" classname="com.atmecs.demo_blazesite.tests.LoginTest" time="0.475">
+    <system-out><![CDATA[logIn Passed!!
+logIn Started!!
+Clicking on login linktext
+Providing Username
+Providing Password
+Clicking on login button
+]]></system-out>
+    <system-err><![CDATA[1602495097520	Marionette	INFO	Stopped listening on port 63753
+[Child 9480, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 545
+[Child 9480, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 545
+[Child 9480, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 545
+]]></system-err>
+  </testcase>
+  <testcase name="logIn[swg, swg@11](2)" classname="com.atmecs.demo_blazesite.tests.LoginTest" time="0.66">
     <system-out><![CDATA[logIn Passed!!
 logIn Started!!
 Clicking on login linktext
@@ -820,28 +655,25 @@ Providing Password
 Clicking on login button
 ]]></system-out>
     <system-err><![CDATA[
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
-Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 45686
+1602495100714	geckodriver	INFO	Listening on 127.0.0.1:12463
+1602495101630	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofile0HUZJp"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 27204
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-1602237473295	geckodriver	INFO	Listening on 127.0.0.1:37011
-1602237473770	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofilesHJZwQ"
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-Oct 09, 2020 3:27:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1602495104945	Marionette	INFO	Listening on port 63821
+1602495105278	Marionette	WARN	TLS certificate errors will be ignored for this session
+Oct 12, 2020 3:01:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-1602237476814	Marionette	INFO	Listening on port 59421
-1602237478134	Marionette	WARN	TLS certificate errors will be ignored for this session
-Oct 09, 2020 3:27:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Oct 12, 2020 3:01:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="logIn[dev, Dev@14](5)" classname="com.atmecs.demo_blazesite.tests.LoginTest" time="0.598">
+  <testcase name="logIn[dev, Dev@13](3)" classname="com.atmecs.demo_blazesite.tests.LoginTest" time="0.902">
     <system-out><![CDATA[logIn Passed!!
 logIn Started!!
 Clicking on login linktext
@@ -849,18 +681,93 @@ Providing Username
 Providing Password
 Clicking on login button
 ]]></system-out>
-    <system-err><![CDATA[1602237494716	Marionette	INFO	Stopped listening on port 59478
-IPDL protocol error: Handler returned error code!
+    <system-err><![CDATA[1602495108494	Marionette	INFO	Stopped listening on port 63821
 
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-IPDL protocol error: Handler returned error code!
 
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
-IPDL protocol error: Handler returned error code!
+1602495111372	geckodriver	INFO	Listening on 127.0.0.1:45459
+1602495111799	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofileE4cAoc"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602495115402	Marionette	INFO	Listening on port 63885
+1602495115433	Marionette	WARN	TLS certificate errors will be ignored for this session
+Oct 12, 2020 3:01:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="logIn[dev, Dev@13](3)" classname="com.atmecs.demo_blazesite.tests.LoginTest" time="0.598">
+    <system-out><![CDATA[logIn Passed!!
+logIn Started!!
+Clicking on login linktext
+Providing Username
+Providing Password
+Clicking on login button
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 10129
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+]]></system-err>
+  </testcase>
+  <testcase name="logIn[swg, swg@12](4)" classname="com.atmecs.demo_blazesite.tests.LoginTest" time="0.104">
+    <system-out><![CDATA[logIn Passed!!
+logIn Started!!
+Clicking on login linktext
+Providing Username
+logIn Started!!
+Providing Password
+Clicking on login button
+]]></system-out>
+    <system-err><![CDATA[1602495118714	Marionette	INFO	Stopped listening on port 63885
+ChromeDriver was started successfully.
 
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1602495122395	geckodriver	INFO	Listening on 127.0.0.1:45171
+1602495122883	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofileZa2agx"
+Oct 12, 2020 3:02:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602495126569	Marionette	INFO	Listening on port 63939
+1602495127024	Marionette	WARN	TLS certificate errors will be ignored for this session
+Oct 12, 2020 3:02:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="logIn[swg, swg@12](4)" classname="com.atmecs.demo_blazesite.tests.LoginTest" time="0.768">
+    <system-out><![CDATA[logIn Passed!!
+Clicking on login linktext
+Providing Username
+Providing Password
+Clicking on login button
+]]></system-out>
+  </testcase>
+  <testcase name="logIn[dev, Dev@14](5)" classname="com.atmecs.demo_blazesite.tests.LoginTest" time="0.618">
+    <system-out><![CDATA[logIn Passed!!
+logIn Started!!
+Clicking on login linktext
+Providing Username
+Providing Password
+Clicking on login button
+]]></system-out>
+    <system-err><![CDATA[1602495130973	Marionette	INFO	Stopped listening on port 63939
+Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 11993
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+console.warn: services.settings: main/whats-new-panel sync interrupted by shutdown
+ChromeDriver was started successfully.
+[Child 964, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 545
+[Child 964, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 545
+[Child 964, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 545
+[Child 964, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 545
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
@@ -868,14 +775,25 @@ IPDL protocol error: Handler returned error code!
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
-1602237496761	geckodriver	INFO	Listening on 127.0.0.1:46602
-1602237497233	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofileeG53Ib"
+1602495134769	geckodriver	INFO	Listening on 127.0.0.1:47000
+Oct 12, 2020 3:02:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1602495135555	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofilevxDxny"
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1602237504535	Marionette	INFO	Listening on port 59522
-1602237504582	Marionette	WARN	TLS certificate errors will be ignored for this session
-Oct 09, 2020 3:28:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1602495138240	Marionette	INFO	Listening on port 64003
+1602495138258	Marionette	WARN	TLS certificate errors will be ignored for this session
+Oct 12, 2020 3:02:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
+  </testcase>
+  <testcase name="logIn[dev, Dev@14](5)" classname="com.atmecs.demo_blazesite.tests.LoginTest" time="0.577">
+    <system-out><![CDATA[logIn Passed!!
+logIn Started!!
+Clicking on login linktext
+Providing Username
+Providing Password
+Clicking on login button
+]]></system-out>
   </testcase>
 </testsuite>

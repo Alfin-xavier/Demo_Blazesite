@@ -1024,3 +1024,173 @@
 [TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
 [TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Password
 [TestNG-tests-2] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on login button
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Selecting the Product
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Selecting the Product
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Adding Product to Cart
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Adding Product to Cart
+[TestNG-tests-2] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Switching to alert window
+[TestNG-tests-1] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Switching to alert window
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Clicking Cart linktext to view products
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Clicking Cart linktext to view products
+[TestNG-tests-1] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking contactUs linktext
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Mail_Id
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
+[TestNG-tests-2] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking contactUs linktext
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Message
+[TestNG-tests-1] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on the button
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Switching to alert window
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Mail_Id
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Message
+[TestNG-tests-2] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on the button
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Switching to alert window
+[TestNG-tests-1] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking contactUs linktext
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Mail_Id
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Message
+[TestNG-tests-1] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on the button
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Switching to alert window
+[TestNG-tests-2] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking contactUs linktext
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Mail_Id
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Message
+[TestNG-tests-2] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on the button
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Switching to alert window
+[TestNG-tests-1] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking contactUs linktext
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Mail_Id
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Message
+[TestNG-tests-1] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on the button
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Switching to alert window
+[TestNG-tests-2] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking contactUs linktext
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Mail_Id
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Message
+[TestNG-tests-2] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on the button
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Switching to alert window
+[TestNG-tests-2] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking contactUs linktext
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Mail_Id
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Message
+[TestNG-tests-2] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on the button
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Switching to alert window
+[TestNG-tests-1] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking contactUs linktext
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Mail_Id
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Message
+[TestNG-tests-1] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on the button
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Switching to alert window
+[TestNG-tests-1] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking contactUs linktext
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Mail_Id
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Message
+[TestNG-tests-1] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on the button
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Switching to alert window
+[TestNG-tests-2] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking contactUs linktext
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Mail_Id
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Message
+[TestNG-tests-2] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on the button
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Switching to alert window
+[TestNG-tests-1] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking contactUs linktext
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Mail_Id
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Message
+[TestNG-tests-1] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on the button
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Switching to alert window
+[TestNG-tests-2] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking contactUs linktext
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Mail_Id
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Message
+[TestNG-tests-2] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on the button
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Switching to alert window
+[TestNG-tests-1] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on Signin linktext
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
+[TestNG-tests-1] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on the Signin button
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Switching to alert window
+[TestNG-tests-2] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on Signin linktext
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
+[TestNG-tests-2] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on the Signin button
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Switching to alert window
+[TestNG-tests-1] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on Signin linktext
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
+[TestNG-tests-1] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on the Signin button
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Switching to alert window
+[TestNG-tests-2] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on Signin linktext
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
+[TestNG-tests-2] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on the Signin button
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Switching to alert window
+[TestNG-tests-1] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on Signin linktext
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
+[TestNG-tests-1] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on the Signin button
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Switching to alert window
+[TestNG-tests-2] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on Signin linktext
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
+[TestNG-tests-2] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on the Signin button
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Switching to alert window
+[TestNG-tests-1] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on Signin linktext
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
+[TestNG-tests-1] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on the Signin button
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Switching to alert window
+[TestNG-tests-2] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on Signin linktext
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
+[TestNG-tests-2] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on the Signin button
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Switching to alert window
+[TestNG-tests-1] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on Signin linktext
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
+[TestNG-tests-1] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on the Signin button
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Switching to alert window
+[TestNG-tests-2] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on Signin linktext
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
+[TestNG-tests-2] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on the Signin button
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Switching to alert window
+[TestNG-tests-1] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on login linktext
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Password
+[TestNG-tests-1] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on login button
+[TestNG-tests-2] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on login linktext
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Password
+[TestNG-tests-2] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on login button
+[TestNG-tests-1] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on login linktext
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Password
+[TestNG-tests-1] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on login button
+[TestNG-tests-2] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on login linktext
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Password
+[TestNG-tests-2] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on login button
+[TestNG-tests-1] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on login linktext
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Password
+[TestNG-tests-1] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on login button
+[TestNG-tests-2] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on login linktext
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Password
+[TestNG-tests-2] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on login button
+[TestNG-tests-1] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on login linktext
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Password
+[TestNG-tests-1] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on login button
+[TestNG-tests-2] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on login linktext
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Password
+[TestNG-tests-2] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on login button
+[TestNG-tests-1] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on login linktext
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
+[TestNG-tests-1] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Password
+[TestNG-tests-1] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on login button
+[TestNG-tests-2] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on login linktext
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Username
+[TestNG-tests-2] INFO  com.atmecs.demo_blazesite.utilities.Logging  - Providing Password
+[TestNG-tests-2] DEBUG com.atmecs.demo_blazesite.utilities.Logging  - Clicking on login button
