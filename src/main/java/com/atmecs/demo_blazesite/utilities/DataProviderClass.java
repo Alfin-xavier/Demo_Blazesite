@@ -8,7 +8,7 @@ public class DataProviderClass
 	@DataProvider(name = "contact_us")
 	public Object[][] readContactData()
 	{
-		Object[][] data = ReadDataFromExcel.readExcelData(Constants.CONTACTUS_DATA,"ContactUS");
+		Object[][] data = ReadDataFromExcel.readExcelData("ContactUS");
 		
 		return data;
 		
@@ -17,7 +17,7 @@ public class DataProviderClass
 	@DataProvider(name = "login")
 	public Object[][] readLoginData()
 	{
-		Object[][] data = ReadDataFromExcel.readExcelData(Constants.LOGIN_DATA,"Login");
+		Object[][] data = ReadDataFromExcel.readExcelData("Login");
 		
 		return data;
 		

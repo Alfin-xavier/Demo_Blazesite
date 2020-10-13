@@ -7,6 +7,8 @@ import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
+import com.atmecs.demo_blazesite.constants.Constants;
+
 public class ReadDataFromExcel 
 {
 	public static XSSFWorkbook workbook;
@@ -14,13 +16,13 @@ public class ReadDataFromExcel
 	public static XSSFCell cell;
 	public static Object[][] data;
 	
-	public static Object[][] readExcelData(String file_path, String sheetname)
+	public static Object[][] readExcelData(String sheetname)
 	{		
 		
 		FileInputStream finput = null;
 		try
 		{
-			finput = new FileInputStream(file_path);
+			finput = new FileInputStream(Constants.EXCEL_DATA);
 		}
 		catch (FileNotFoundException e) 
 		{
